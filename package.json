@@ -1,11 +1,12 @@
 {
-  "name": "ariasaka-blog",
+  "name": "tankenqi-blog",
   "version": "1.0.1",
   "private": true,
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "hexo clean && hexo bangumi -u && hexo generate && hexo deploy",
+    "dev": "hexo clean && hexo bangumi -u && hexo generate && hexo server",
     "server": "hexo server",
     "sync": "yuque-hexo sync",
     "clean:yuque": "yuque-hexo clean"
@@ -17,7 +18,7 @@
     "adapter": "markdown",
     "concurrency": 5,
     "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "ariasaka",
+    "login": "tankenqi",
     "repo": "lgd8fp",
     "token": "a2AW8ktTvbyLXhl4D40WOqh8k3fh5SPzNfPCkxuN",
     "onlyPublished": true,

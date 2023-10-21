@@ -21,8 +21,14 @@ type: "links"
 
 
 
-<!-- 一个友链例子 -->
-
+<!-- 一个友链的例子 -->
+<!-- 
+- name: 小冰【冰】
+  link: https://zfe.space/
+  avatar: /img/20200904222157.png
+  descr: 做个有梦想的人！ 
+  theme_color: "blue"
+-->
 
 {% flink %}
 - class_name: <a href="https://github.com/Rock-Candy-Tea">冰糖红茶 </a>
@@ -48,36 +54,36 @@ type: "links"
 {% endflink %}
 
 
-{% hideToggle 我的信息 %}
+{% folding cyan open, 我的信息 %}
 
 {% tabs  %}
 <!-- tab Butterfly & MengD -->
 ```yaml
-- name: Ariasakaの小窝
-  link: https://yisous.xyz
-  avatar: https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg
+- name: Tankenqiの小窝
+  link: https://www.tankenqi.cn
+  avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/639a9ebbbc1ad.webp
   descr: 人有悲欢离合 月有阴晴圆缺
-  siteshot: https://vercel.yisous.xyz/img/siteshot.png
+  siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/blog.png
 ```
 <!-- endtab -->
 
 <!-- tab fluid -->
 ```yaml
 - {
-  title: 'Ariasakaの小窝',
+  title: 'Tankenqiの小窝',
   intro: '人有悲欢离合 月有阴晴圆缺',
-  link: 'https://yisous.xyz/',
-  image: 'https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg'
+  link: 'https://www.tankenqi.cn',
+  image: 'https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/639a9ebbbc1ad.webp'
 }
 ```
 <!-- endtab -->
 
 <!-- tab volantis -->
 ```yaml
-- title: Ariasakaの小窝
-  avatar: https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg
-  url: https://yisous.xyz/
-  screenshot: https://yisous.xyz/img/siteshot.png
+- title: Tankenqiの小窝
+  avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/639a9ebbbc1ad.webp
+  url: https://www.tankenqi.cn
+  screenshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/blog.png
   keywords: 个人博客
   description: 人有悲欢离合 月有阴晴圆缺
 ```
@@ -85,15 +91,15 @@ type: "links"
 
 <!-- tab html -->
 ```html
-<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg" alt="avatar">Ariasakaの小窝</a>
+<a href="https://www.tankenqi.cn"><img src="https://bu.dusays.com/2022/12/15/639a9ebbbc1ad.jpg" alt="avatar">Tankenqiの小窝</a>
 ```
 <!-- endtab -->
 
 {% endtabs  %}
 
-{% endhideToggle %}
+{% endfolding %}
 
-{% hideToggle 推荐标签衡量标准 %}
+{% folding cyan open, 推荐标签衡量标准 %}
 
 1.网站没有不良内容
 
@@ -101,7 +107,7 @@ type: "links"
 
 3.文章较多/或者质量过硬
 
-{% endhideToggle %}
+{% endfolding %}
 
 <h1>如何申请友链？</h1>
 

@@ -1,6 +1,6 @@
 {
-    "name": "Ariasakaの小窝", 
-    "short_name": "Ariasakaの小窝", 
+    "name": "Tankenqiの小窝", 
+    "short_name": "Tankenqiの小窝", 
     "theme_color": "var(--lyx-theme)", 
     "background_color": "var(--lyx-theme)",
     "display": "standalone",

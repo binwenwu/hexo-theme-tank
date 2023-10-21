@@ -1,11 +1,11 @@
 ---
 title: 声明
-date: 2022-07-10 11:13:49
+date: 2023-07-10 11:13:49
 seo_title: 声明
 layout: docs
 bottom_meta: false
 ---
-Copyright(C) LYX 2022
+Copyright(C) TANKENQI 2023
 
 # 声明 | 版权协议
 

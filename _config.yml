@@ -3,18 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ariasakaの小窝
+title: Tankenqiの小窝
 subtitle: ''
 description: 
-keywords: Python,C++,Windows,Linux,PyQt,html,css
-author: Ariasaka
+keywords: Python,C++,Windows,Linux,PyQt,html,css,Java,博客,Tankenqi,TANKENQI,tankenqi
+author: Tankenqi
 language: zh-CN
 timezone: ''
+email: 2390726421@qq.com
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # 改动的地方
-url: https://yisous.xyz
+url: https://www.tankenqi.cn/
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
@@ -25,6 +27,8 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+
 # Directory
 source_dir: source
 public_dir: public
@@ -41,6 +45,8 @@ skip_render:
   - people.html
   - noie.html
   - config.yaml
+
+
 # hexo-admin authentification
 admin:
   username: lyx2010official@outlook.com
@@ -121,12 +127,16 @@ search:
   field: post # post:文章范围、page:页面范围、all:覆盖所有
   content: true # 内容是否包含每一篇文章的全部内容
   template:  # ./search.xml 指定定制的XML模板
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: https://github.com/lyxofficial/pjaxtest.git
-    branch: main
+    repo: git@github.com:binwenwu/binwenwu.github.io.git
+    branch: master
+
+
 live2d:
   enable: false
   scriptFrom: local
@@ -148,6 +158,8 @@ symbols_count_time:
   time: true
   total_symbols: true
   total_time: true
+
+
 # # hexo-filter-gitcalendar
 # # see https://akilar.top/posts/1f9c68c9/
 # calendar:
@@ -156,6 +168,8 @@ symbols_count_time:
 
 # # hexo-butterfly-swiper
 # # see https://akilar.top/posts/8e1264d1/
+
+
 swiper:
   enable: true # 开关
   priority: 5 # 过滤器优先权
@@ -170,11 +184,23 @@ swiper:
   swiper_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper-lyx/lib/swiperstyle.css
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper-lyx/lib/swiper_init.js
+
+
+# butterfly 主题文章双栏布局插件
 butterfly_article_double_row:
   enable: false
+
+
+# 给非友情链接的出站链接添加「nofollow」标签，
+# nofollow 标签是由谷歌领头创新的一个「反垃圾链接」的标签，
+# 并被百度、yahoo 等各大搜索引擎广泛支持，引用 nofollow 标签的目的是：
+# 用于指示搜索引擎不要追踪（即抓取）网页上的带有 nofollow 属性的任何出站链接，以减少垃圾链接的分散网站权重。
 nofollow:
   enable: true
   field: site
+  exclude:
+
+
 # hexo-douban
 douban:
   user: lyxoff2233  # 你的豆瓣ID
@@ -183,6 +209,9 @@ douban:
     title: '电影列表'
     quote: '好看的电影！(实际上看过很多，不过忘了，就只能扔一些印象深刻一点的电影上去)'
   timeout: 10000 
+
+
+# 历史上的今天插件 
 # history_calendar:
 #   priority: 4
 #   enable: true
@@ -192,18 +221,29 @@ douban:
 #     name: sticky_layout
 #     index: 0
 #   temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
+
+
+# RSS订阅
 feed:
   type: atom
   path: atom.xml
   limit: false
+  hub:
+  content:
+  content_limit:
+  content_limit_delim: ' '
+
+# 哔哩哔哩追番页面
 bangumi:
   enable: true 
-  vmid: 369280472
+  vmid: 353113412 #369280472
   title: '追番列表'
   quote: '君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！'
   show: 1
   loading: '/assets/douban-loading.gif'
 
+
+# 提交bing搜索引擎
 hexo_submit_urls_to_search_engine:
   submit_condition: count
   count: 10
@@ -212,9 +252,10 @@ hexo_submit_urls_to_search_engine:
   bing: 1 
   baidu: 0
   txt_path: submit_urls.txt
-  bing_host: https://yisous.xyz
-  bing_token: 5387b0d0a57442f8814d5650744280b1
+  bing_host: https://www.tankenqi.cn
+  bing_token: #FAA0DD3673DE5677D1E955FB76AF27D4 #5387b0d0a57442f8814d5650744280b1
   replace: 0
+
 # wowjs:
 #   enable: true #控制动画开关。true是打开，false是关闭
 #   priority: 10 #过滤器优先级
@@ -228,6 +269,8 @@ hexo_submit_urls_to_search_engine:
 #       iteration: 1 #选填项，动画重复的次数
 #     - class: card-widget
 #       style: animate__zoomIn
+
+
 animate_css: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/animate.min.css
 wow_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow.min.js
 wow_init_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow_init.js

@@ -1,4 +1,4 @@
-function link(args) {
+function link2(args) {
     args = args.join(' ').split(',');
     let title = args[0];
     let sitename = args[1];
@@ -21,4 +21,6 @@ function link(args) {
     </a>`
 }
 
-hexo.extend.tag.register('link',link, { ends: false })
+
+// 用店长的外挂标签方案，不用洪哥的
+hexo.extend.tag.register('link2',link2, { ends: false })

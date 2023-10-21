@@ -10,22 +10,24 @@ menu:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
   本站 || fa fa-sitemap:
-    说说: /speaks/ || fa fa-comments
-    友链: /links/ || fas fa-link
-    朋友圈: /fcircle/ || fab fa-galactic-republic
     分站: /othersite/ || fa fa-tasks
     日志: /update/ || fa fa-bell 
     留言板: /messageboard/ || fa fa-blackboard
+    订阅: /subscribe/ || fas fa-solid fa-cloud
+    声明: /license/ || fas fa-balance-scale
   我的 || fa-fw fas fa-address-card:
     电影: /movies/ || fa fa-photo-video
     追番: /bangumis/ || fa-fw fas fa fa-film
+    说说: /speaks/ || fa fa-comments
+    友链: /links/ || fas fa-link
+    朋友圈: /fcircle/ || fab fa-galactic-republic
     # 音乐: /musics/ || fa fa-music
+    收藏网址: /stars/ || fas fa-star
     关于我: /about/ || fa fa-info-circle
-    声明: /license/ || fas fa-balance-scale
   工具 || fa-fw fas fa-tools:
-    小空调: /kongtiao/
+    小空调: /kongtiao/ || fa fa-wind
     每日早报: /zaobao/ || fa fa-newspaper
-    木鱼: /muyu/ || fa fa-cog
+    木鱼: /muyu/ || fa fa-user-ninja
   线路 || fas fa-link:
     Vercel: https://yisous.xyz
     Vercel2: https://vercel.yisous.xyz
@@ -35,15 +37,17 @@ menu:
     Github: https://github.yisous.xyz
     Railway: https://railway.yisous.xyz
     Railway2: https://rw.yisous.xyz
-# Code Blocks (代碼相關)
+
+
+# Code Blocks (代码块配置)
 # --------------------------------------
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: 500 # unit: px
-code_word_wrap: true
+highlight_height_limit: false # unit: px
+code_word_wrap: false
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -51,20 +55,22 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 50
+    limit_count: 50000
 
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/lyxofficial || Github
+  fab fa-github: https://github.com/binwenwu || Github
+  iconfont icon-csdn: https://blog.csdn.net/m0_55766862 || CSDN
+  fas fa-envelope: mailto:binwenwu598@gmail.com || Gmail
+  fa-brands fa-qq: https://res.abeim.cn/api/qq/?qq=2390726421 || QQ 
   #fas fa-envelope: mailto:lyx2010official.outlook.com || Email
   #iconfont icon-gitee: https://gitee.com/lyxofficial || Gitee
-  iconfont icon-csdn: https://blog.csdn.net/weixin_44101108 || CSDN
-  iconfont icon-RSS: https://www.cnblogs.com/LYXOfficial || 博客园
-  fa fa-rss: /atom.xml || 订阅RSS源
-  iconfont icon-zhihu: https://www.zhihu.com/people/lyx-29-86-4 || 知乎
+  # iconfont icon-RSS: https://www.cnblogs.com/LYXOfficial || 博客园
+  # iconfont icon-zhihu: https://www.zhihu.com/people/alone-23-53 || 知乎
   iconfont icon-bilibili: https://space.bilibili.com/369280472 || bilibili
+  fa fa-rss: /atom.xml || 订阅RSS源
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -104,23 +110,23 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://bu.dusays.com/2022/09/01/63103c75da20e.webp
+favicon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/meta.svg #https://bu.dusays.com/2022/09/01/63103c75da20e.webp
 
 # Avatar (頭像)
 avatar:
-  img: /img/a.webp
+  img: /img/头像.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 # The banner image of home page
-index_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+index_img: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/63103c8a03a24.webp
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+default_top_img: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/63103c8a03a24.webp
 
 # The banner image of archive page
-archive_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+archive_img: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/63103c8a03a24.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -368,7 +374,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://yourapi.example.com/
+  envId: https://twikoo-api-ochre-mu.vercel.app/   #https://yourapi.example.com/
   region:
   visitor: true
   option:
@@ -429,7 +435,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2022
+    since: 萌ICP备20230346
   custom_text: 这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒
   copyright: true # Copyright of theme and framework
 
@@ -721,7 +727,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 6/4/2022 12:00:00  
+  publish_date: 3/1/2023 12:00:00  
   ##网页开通时间
   #格式: 月/日/年 时间
   #也可以写成 年/月/日 时间
@@ -821,6 +827,7 @@ pjax:
   enable: true
   exclude:
     - /speaks/
+    - /stars/
     # - categories/*
 
 # Inject the css and script (aplayer/meting)
@@ -878,70 +885,75 @@ css_prefix: true
 # # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  - <link rel="stylesheet" href="/css/ariasakablog.css">
-  - <link id="css" rel="stylesheet" href="/css/stylessimple.css">
-  - <link rel="stylesheet" href="/css/iconfont.css">
+  - <link rel="stylesheet" href="/css/ariasakablog.css"> # 主題樣式
+  - <link id="css" rel="stylesheet" href="/css/stylessimple.css"> 
+  - <link rel="stylesheet" href="/css/iconfont.css"> # 字体
   - "<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
-  - <style id="barragesColor"></style>
-  - <style id="settingStyle"></style>
-  - <style id="yjjs"></style>
-  - <style id="themeColor"></style>
-  - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC">
-  - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
-  - <link rel="stylesheet" href="/css/commentBarrage.css">
-  - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC">
-  - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" />
-  - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-  - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
-  - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-  - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
-  - <script src="/swReg.js"></script>
-  - <span id="fps"></span>
-  - <style id="grays"></style>
-  - <script src="https://cdn1.tianli0.top/npm/prefetch-page"></script>
+  - <style id="barragesColor"></style> # 弹幕颜色
+  - <style id="settingStyle"></style> # 设置样式
+  - <style id="yjjs"></style> 
+  - <style id="themeColor"></style> # 主题颜色
+  - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC"> # 字体
+  - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css"> # 历史上的今天
+  - <link rel="stylesheet" href="/css/commentBarrage.css"> # 弹幕样式
+  - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC"> # 字体
+  - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" /> 
+  - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script> 
+  - '<script>LA.init({id: "3GIN8OKKEHazNDyk",ck: "3GIN8OKKEHazNDyk"})</script>' # 51.la 统计
+  - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script> # 51.la 统计
+  - <script>new LingQue.Monitor().init({id:"3GIPbRwbFX8zoffD"});</script> # 灵雀监视器
+  - <script src="/swReg.js"></script> 
+  - <span id="fps"></span> # FPS
+  - <style id="grays"></style> # 灰色模式
+  - <script src="https://cdn1.tianli0.top/npm/prefetch-page"></script> # 预加载
   - "<script>addEventListener('DOMContentLoaded', function () {prefetch({ threshold: 25, delay: 3000, limit: 10 ,customs: ['search.xml']})});requestIdleCallback(function () {prefetch({ threshold: 25, delay: 3000, limit: 10,customs: ['search.xml']})})</script>"
+  - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.css"> # Ai摘要 - 样式
   bottom:
-  - <script type="text/javascript" src="/js/fixbugpjax.js"></script>
-  - <script src="/js/sakura.js"></script>
-  - <div class="aplayer no-destroy" data-id="7803928554" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
-  - <script type="text/javascript" src="/js/aplayersave.js"></script>
-  - <script type="text/javascript" src="/js/noie.js"></script>
-  - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
-  - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
-  - <script src="https://cdn1.tianli0.top/npm/sweetalert2@8"></script>
-  - <script type="text/javascript" data-pjax="" src="/js/rightmenu.js"></script>
-  - <script type="text/javascript" src="/js/copy.js"></script>
-  - <script type="text/javascript" src="/js/welcome.js"></script>
-  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
-  - <script type="text/javascript" src="/js/resizeTop.js"></script>
-  - <script type="text/javascript" src="/js/languages.js"></script>
-  - <script type="text/javascript" src="/js/browser.js"></script>
-  - <script type="text/javascript" src="/js/smooth-scrolling.js"></script>
-  - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-  - <script type="text/javascript" src="/js/sitetime.js"></script>
-  - <script type="text/javascript" src="/js/seo.js"></script>
-  - <script data-pjax="" type="text/javascript" src="/js/heimu.js"></script>
-  - <script data-pjax="" src="/js/bbtalklunbo.js"></script>
-  - <script data-pjax="" src="/js/fps.js"></script>
-  - <script data-pjax="" src="/js/dis.js"></script>
-  - <script data-pjax="" src="/js/settings.js"></script>
-  - <script src="/js/owo.js"></script>
-  - <script src="/js/welcomeconsole.js"></script>
-  - <script src="/js/hide.show.js"></script>
+  - <script type="text/javascript" src="/js/fixbugpjax.js"></script> # 修复pjax的bug
+  - <script src="/js/sakura.js"></script> # 落樱背景
+  - <div class="aplayer no-destroy" data-id="7803928554" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div> # 音乐播放器
+  - <script type="text/javascript" src="/js/aplayersave.js"></script> # 音乐播放器
+  - <script type="text/javascript" src="/js/noie.js"></script> # 不支持IE
+  - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script> 
+  - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script> #winbox
+  - <script src="https://cdn1.tianli0.top/npm/sweetalert2@8"></script> 
+  - <script type="text/javascript" data-pjax="" src="/js/rightmenu.js"></script> # 右键菜单
+  - <script type="text/javascript" src="/js/copy.js"></script> # 复制
+  - <script type="text/javascript" src="/js/welcome.js"></script> # 欢迎
+  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
+  - <script type="text/javascript" src="/js/resizeTop.js"></script> # 顶部自适应
+  - <script type="text/javascript" src="/js/languages.js"></script> # 语言
+  - <script type="text/javascript" src="/js/browser.js"></script> # 浏览器检测
+  - <script type="text/javascript" src="/js/smooth-scrolling.js"></script> # 平滑滚动
+  - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script> 
+  - <script type="text/javascript" src="/js/sitetime.js"></script> # 网站运行时间
+  - <script type="text/javascript" src="/js/seo.js"></script> # SEO
+  - <script data-pjax="" type="text/javascript" src="/js/heimu.js"></script> # 黑幕
+  - <script data-pjax="" src="/js/bbtalklunbo.js"></script> # bbtalk轮播
+  - <script data-pjax="" src="/js/fps.js"></script> # FPS
+  - <script data-pjax="" src="/js/dis.js"></script> 
+  - <script data-pjax="" src="/js/settings.js"></script> # 设置
+  - <script src="/js/owo.js"></script> 
+  - <script src="/js/welcomeconsole.js"></script> # 欢迎
+  - <script src="/js/hide.show.js"></script> # 隐藏显示
   
-  - <script src="https://f.zhheo.com/JS-Heo/bb/showbb_in_index.js" data-pjax=""="" defer=""></script>
-  - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-  - <script data-pjax="" src="/js/baiduhistory.js"></script>
+  - <script src="https://f.zhheo.com/JS-Heo/bb/showbb_in_index.js" data-pjax=""="" defer=""></script> # bbtalk
+  - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script> 
+  - <script data-pjax="" src="/js/baiduhistory.js"></script> # 历史上的今天
   - <script src="/js/random.js"></script>
-  - <script src="/js/lunar.js"></script>
-  - <script src="/js/day.js"></script>
-  - <script data-pjax="" src="/js/nav.js"></script>
-  - <script src="/js/cursor.js"></script>
-  - <script data-pjax type="text/javascript" src="/js/dianzan.js"></script>
-  - <script type="text/javascript" src="/js/commentsCount.js"></script>
-  - <script type="text/javascript" src="/js/latest.js"></script>
-  - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>
-  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script>
+  - <script src="/js/lunar.js"></script>  # 农历
+  - <script src="/js/day.js"></script> # 纪念日
+  - <script data-pjax="" src="/js/nav.js"></script> # 导航
+  - <script src="/js/cursor.js"></script> # 鼠标
+  - <script data-pjax type="text/javascript" src="/js/dianzan.js"></script> # 点赞
+  - <script type="text/javascript" src="/js/commentsCount.js"></script> # 评论数
+  - <script type="text/javascript" src="/js/latest.js"></script> # 最新文章
+  - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>  # 侧边栏
+  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script> 
+  - <script async>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'cb15e8574176e0a65dd7';</script> # Ai摘要 - 逻辑JS
+  - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
+
+
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 # 
@@ -1016,12 +1028,13 @@ categoryBar:
   column: odd # 显示列数,odd：3列 | even：4列
   row: 2 #显示行数，默认两行，超过行数切换为滚动显示
   descr:
-    - 3D打印分享
-    - Hexo魔改教程
-    - 自己的杂谈和事情
-    - 白嫖党万岁！
-    - 一些教程
-    - 解决一些bug与避坑
+    - GIS
+    - Linux
+    - 云原生
+    - 前端开发
+    - 后端开发
+    - 微软社
+    - 日常办公
   cover:
     - rgba(255,20,200,0.6)
     - rgba(255, 40, 40,0.6)
@@ -1030,6 +1043,7 @@ categoryBar:
     - rgba(12, 135, 235,0.6)
     - '#425aef88'
     - '#ed709b88'
+
 
 # tag-plugins-plus
 # see https://akilar.top/posts/615e2dec/
@@ -1046,6 +1060,17 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    
+    # 第一版博客使用的cdn
+    # anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    # jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    # issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    # iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    # carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    # tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+
+
 #侧栏悬浮卡片控制按钮
 #https://akilar.top/posts/451ac5f8/
 fixed_card_widget:
@@ -1122,10 +1147,13 @@ fixed_card_widget:
       index: 0
       icon: fas fa-calendar
       title: 文章日历
+
+
+# github 日历
 gitcalendar:
   enable: true
   simplemode: false
-  user: LYXOfficial
+  user: binwenwu # github用户名
   # layout:
   #   type: class
   #   name: gc

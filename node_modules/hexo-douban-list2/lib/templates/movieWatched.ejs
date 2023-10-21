@@ -1,0 +1,97 @@
+<div style="padding-bottom: 10px;position: relative;clear: both;min-height: 150px;padding: 10px 0;border-bottom: 1px #ddd solid;" class="hexo-douban-item" >
+ 
+    <style>
+
+        .hexo-douban-tabs {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .hexo-douban-tab {
+            padding: 5px;
+        }
+
+        .hexo-douban-active {
+            background: #657b83;
+            color: #fff;
+        }
+
+        .hexo-douban-picture {
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 88px;
+        }
+
+        .hexo-douban-info {
+            padding-left: 100px;
+        }
+
+        .hexo-douban-meta {
+            
+            padding-right: 10px;
+            color: #ff5e00;
+        }
+
+        .hexo-douban-comments {
+            font-size: 13px;
+            
+        }
+
+        .hexo-douban-pagination {
+            margin-top: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .hexo-douban-button {
+            padding: 5px;
+        }
+
+        .hexo-douban-button:hover {
+
+            color: #fff;
+        }
+
+        .hexo-douban-hide {
+            display: none;
+        }
+
+        .hexo-douban-show {
+            display: block;
+        }
+        @media screen and (max-width: 600px) {
+            .hexo-douban-picture {
+                display:none;
+            }
+            .hexo-douban-info {
+                padding-left: 0px;
+            }
+            .hexo-douban-item{
+                min-height: auto;
+            }
+        }
+    </style>
+    <div class="hexo-douban-picture"><img src="<%= item.image %>" data-src="<%= item.image %>" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="<%= item.alt %>" style="text-decoration:none;"><%= item.title %></a></b>
+        </div>
+        <div class="hexo-douban-meta" style="font-size: 13px;font-size: 15px !important;"><span style=""><b><%= item.recommend.substr(0, item.recommend.length - 3) %></b></span></div>
+        <div class="hexo-douban-meta" style="font-size: 13px;"><%= item.date %> / <%= item.tags %></div>
+        <div class="hexo-douban-comments"> 
+            <% if(item.ctitle!=""){ %>
+                <%= item.comment %>
+                此为长影评，前往豆瓣阅读原文<a style="text-decoration : none;" href=<%= item.chref %>><%= item.ctitle %></a> 
+            <% }else{ %>
+                <% if(item.comment.length<plen){ %>
+                    <%= item.comment %>
+                <% }else{ %>
+                    <%= item.comment.substr(0,plen) %>...
+                <% } %>
+            <% } %>    
+        </div>
+        
+    </div>
+</div>
+

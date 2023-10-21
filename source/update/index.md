@@ -2,14 +2,13 @@
 title: 网站更新日志
 date: 2022-7-2 19:56:00
 ---
-![1666459263178.png](https://bu.dusays.com/2022/10/23/63542683a5590.png)
 
 Acryple v1.0.0 2022-10-23
 
 经过了深思熟虑，博客主题独立啦！
 
-现在的主题叫做Acryple，具体见：
-{% link 博客正式独立主题啦！,Ariasakaの小窝,yisous.xyz/posts/a1078b2d %}
+现在的主题叫做Tanple，具体见：
+{% link2 博客正式独立主题啦！,Tankenqiの小窝,yisous.xyz/posts/a1078b2d %}
 
 目前博客有：
 

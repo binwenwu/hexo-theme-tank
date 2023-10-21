@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tankenqiの小窝</title>
+  <icon>https://www.gravatar.com/avatar/e72f077a2f71b2be255a3ec60b054acb</icon>
+  
+  <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.tankenqi.cn/"/>
+  <updated>2023-10-21T05:15:43.545Z</updated>
+  <id>https://www.tankenqi.cn/</id>
+  
+  <author>
+    <name>Tankenqi</name>
+    <email>2390726421@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通过原始存储配置文件恢复数据库（简单粗暴）</title>
+    <link href="https://www.tankenqi.cn/posts/add5de83/"/>
+    <id>https://www.tankenqi.cn/posts/add5de83/</id>
+    <published>2023-10-12T01:20:52.000Z</published>
+    <updated>2023-10-21T05:15:43.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Microsoft Office下载及激活教程</title>
+    <link href="https://www.tankenqi.cn/posts/499a3852/"/>
+    <id>https://www.tankenqi.cn/posts/499a3852/</id>
+    <published>2023-10-11T12:10:50.000Z</published>
+    <updated>2023-10-21T05:50:19.991Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="日常办公" scheme="https://www.tankenqi.cn/categories/%E6%97%A5%E5%B8%B8%E5%8A%9E%E5%85%AC/"/>
+    
+    
+    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="Office" scheme="https://www.tankenqi.cn/tags/Office/"/>
+    
+    <category term="Windows" scheme="https://www.tankenqi.cn/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker安装PostgreSQL并添加PostGIS拓展</title>
+    <link href="https://www.tankenqi.cn/posts/e232bc22/"/>
+    <id>https://www.tankenqi.cn/posts/e232bc22/</id>
+    <published>2023-10-09T12:20:52.000Z</published>
+    <updated>2023-10-21T04:51:57.415Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="PostgreSQL" scheme="https://www.tankenqi.cn/tags/PostgreSQL/"/>
+    
+    <category term="PostGIS" scheme="https://www.tankenqi.cn/tags/PostGIS/"/>
+    
+    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker镜像打包迁移</title>
+    <link href="https://www.tankenqi.cn/posts/620cff7f/"/>
+    <id>https://www.tankenqi.cn/posts/620cff7f/</id>
+    <published>2023-10-09T01:20:52.000Z</published>
+    <updated>2023-10-21T04:52:02.184Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>武汉大学微软社招新2023笔试题</title>
+    <link href="https://www.tankenqi.cn/posts/33834cc9/"/>
+    <id>https://www.tankenqi.cn/posts/33834cc9/</id>
+    <published>2023-08-13T17:50:45.000Z</published>
+    <updated>2023-10-21T05:16:08.660Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="微软社" scheme="https://www.tankenqi.cn/categories/%E5%BE%AE%E8%BD%AF%E7%A4%BE/"/>
+    
+    
+    <category term="微软社" scheme="https://www.tankenqi.cn/tags/%E5%BE%AE%E8%BD%AF%E7%A4%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue子组件中调用父组件中的方法</title>
+    <link href="https://www.tankenqi.cn/posts/aec1e412/"/>
+    <id>https://www.tankenqi.cn/posts/aec1e412/</id>
+    <published>2023-08-12T09:59:05.000Z</published>
+    <updated>2023-10-21T04:53:05.237Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="前端开发" scheme="https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Vue" scheme="https://www.tankenqi.cn/tags/Vue/"/>
+    
+    <category term="前端" scheme="https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="组件" scheme="https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 系统字体安装</title>
+    <link href="https://www.tankenqi.cn/posts/2de821dc/"/>
+    <id>https://www.tankenqi.cn/posts/2de821dc/</id>
+    <published>2023-08-09T11:48:15.000Z</published>
+    <updated>2023-10-21T04:52:23.485Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    
+    <category term="安装" scheme="https://www.tankenqi.cn/tags/%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux上Pandoc的使用</title>
+    <link href="https://www.tankenqi.cn/posts/557acb69/"/>
+    <id>https://www.tankenqi.cn/posts/557acb69/</id>
+    <published>2023-08-09T10:25:15.000Z</published>
+    <updated>2023-10-21T04:52:38.162Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    
+    <category term="Pandoc" scheme="https://www.tankenqi.cn/tags/Pandoc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>K8S集群环境搭建(Containerd作为容器)</title>
+    <link href="https://www.tankenqi.cn/posts/9d39de82/"/>
+    <id>https://www.tankenqi.cn/posts/9d39de82/</id>
+    <published>2023-08-06T07:08:12.000Z</published>
+    <updated>2023-10-21T04:52:13.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="K8S" scheme="https://www.tankenqi.cn/tags/K8S/"/>
+    
+    <category term="Containerd" scheme="https://www.tankenqi.cn/tags/Containerd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMware安装CentOS 7</title>
+    <link href="https://www.tankenqi.cn/posts/7ddf46fc/"/>
+    <id>https://www.tankenqi.cn/posts/7ddf46fc/</id>
+    <published>2023-08-04T08:59:05.000Z</published>
+    <updated>2023-10-21T04:52:52.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="VMware" scheme="https://www.tankenqi.cn/tags/VMware/"/>
+    
+    <category term="虚拟机" scheme="https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos安装Grass</title>
+    <link href="https://www.tankenqi.cn/posts/4e1214ce/"/>
+    <id>https://www.tankenqi.cn/posts/4e1214ce/</id>
+    <published>2023-08-03T14:04:51.000Z</published>
+    <updated>2023-10-21T04:51:41.195Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="GIS" scheme="https://www.tankenqi.cn/categories/GIS/"/>
+    
+    
+    <category term="遥感" scheme="https://www.tankenqi.cn/tags/%E9%81%A5%E6%84%9F/"/>
+    
+    <category term="GIS" scheme="https://www.tankenqi.cn/tags/GIS/"/>
+    
+    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux安装Clash – 代理 – VPN</title>
+    <link href="https://www.tankenqi.cn/posts/438a2103/"/>
+    <id>https://www.tankenqi.cn/posts/438a2103/</id>
+    <published>2023-08-01T10:25:15.000Z</published>
+    <updated>2023-10-21T04:52:28.056Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    
+    <category term="Clash" scheme="https://www.tankenqi.cn/tags/Clash/"/>
+    
+    <category term="VPN" scheme="https://www.tankenqi.cn/tags/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本地启动前端打包的项目</title>
+    <link href="https://www.tankenqi.cn/posts/16380ff0/"/>
+    <id>https://www.tankenqi.cn/posts/16380ff0/</id>
+    <published>2023-07-12T09:59:05.000Z</published>
+    <updated>2023-10-21T04:50:47.089Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="前端开发" scheme="https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="前端" scheme="https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="打包" scheme="https://www.tankenqi.cn/tags/%E6%89%93%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>K8S集群环境搭建(Docker作为容器)</title>
+    <link href="https://www.tankenqi.cn/posts/d862c611/"/>
+    <id>https://www.tankenqi.cn/posts/d862c611/</id>
+    <published>2023-05-18T06:08:12.000Z</published>
+    <updated>2023-10-21T04:52:18.653Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="K8S" scheme="https://www.tankenqi.cn/tags/K8S/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker修改容器映射主机端口</title>
+    <link href="https://www.tankenqi.cn/posts/9c5d9ac5/"/>
+    <id>https://www.tankenqi.cn/posts/9c5d9ac5/</id>
+    <published>2023-05-12T07:26:51.000Z</published>
+    <updated>2023-10-21T04:52:06.632Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker安装配置</title>
+    <link href="https://www.tankenqi.cn/posts/b035bcd6/"/>
+    <id>https://www.tankenqi.cn/posts/b035bcd6/</id>
+    <published>2023-05-11T01:20:52.000Z</published>
+    <updated>2023-10-21T04:51:49.730Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux配置NFS共享存储服务器</title>
+    <link href="https://www.tankenqi.cn/posts/d154fd87/"/>
+    <id>https://www.tankenqi.cn/posts/d154fd87/</id>
+    <published>2023-04-03T12:10:50.000Z</published>
+    <updated>2023-10-21T04:52:34.025Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    
+    <category term="存储" scheme="https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VMware虚拟机设置静态IP</title>
+    <link href="https://www.tankenqi.cn/posts/f5fad029/"/>
+    <id>https://www.tankenqi.cn/posts/f5fad029/</id>
+    <published>2023-03-14T08:59:05.000Z</published>
+    <updated>2023-10-21T04:53:00.088Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="VMware" scheme="https://www.tankenqi.cn/tags/VMware/"/>
+    
+    <category term="虚拟机" scheme="https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="IP" scheme="https://www.tankenqi.cn/tags/IP/"/>
+    
+  </entry>
+  
+</feed>

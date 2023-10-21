@@ -10,7 +10,7 @@
       .title2
         | 我
       .title1
-        | 是一名 初中生
+        | 是一名 大学生
         span.inline-word 博主
     .aboutsiteTips.author-content-item
       .author-content-item-tips 追求
@@ -63,10 +63,13 @@
         .careers-group
           .careers-item
             .circle(style='background:#357ef5')
-            .name 重庆市涪陵外国语学校
+            .name 广东省东莞市东华初级中学
+          .careers-item
+            .circle(style='background:#357ef5')
+            .name 广东省东莞市东华高级中学
           .careers-item
             .circle(style='background:#db5a7b')
-            .name 重庆市西南大学附中
+            .name 武汉大学
 
   .author-content
     .about-statistic.author-content-item
@@ -86,16 +89,20 @@
       .author-content-item.map.single
         span.map-title
           | 我现在住在
-          b 中国，重庆市
+          b 中国，武汉市
       .author-content-item.selfInfo.single
         div
           span.selfInfo-title 生于
           |
-          span.selfInfo-content#selfInfo-content-year(style='color:#43a6c6') 2010
+          span.selfInfo-content#selfInfo-content-year(style='color:#43a6c6') 2001
+        div
+          span.selfInfo-title 武汉大学
+          |
+          span.selfInfo-content(style='color:#be9250') 遥感信息工程学院
         div
           span.selfInfo-title 现在职业
           |
-          span.selfInfo-content(style='color:#b04fe6') 初一学生👨‍🎓
+          span.selfInfo-content(style='color:#b04fe6') 大学生👨‍🎓
 
   .author-content
     .author-content-item.personalities
@@ -126,7 +133,7 @@
           |
           span
             | 二次元指数
-            span.inline-word MAX
+            span.inline-word MIN
       .card-background-icon
         i.fas.fa-dice-d20
 
@@ -158,9 +165,9 @@
     .author-content-item.like-music
       .card-content
         .author-content-item-tips 音乐偏好
-        span.author-content-item-title 日语、ACG、
+        span.author-content-item-title R&B、Electronic、
         |
-        span.author-content-item-title 二次元
+        span.author-content-item-title Funk
         .content-bottom
           .tips 一起欣赏更多音乐
 
@@ -173,39 +180,39 @@
         span 个人网页编写能力的
         del 垃圾堆
         span 体现了吧。
-        span 还有，我很喜欢发动态，这个博客的说说很明显是一个不错的体现点。写博确实是一种乐趣，我希望我可以坚持下来
+        span 写博确实是一种乐趣，我希望我可以坚持下来
       h2 为什么而搭建博客？
       p 纯粹是处于分享欲，说实话我还是喜欢把自己的东西拿出去分享的，还可以做社交，自从我的OI步入正轨之后，就可以把文章扔到这上面了
-      h2 为什么叫Ariasaka？
-      p 跟某番/游戏无关，随便想+滚键盘的qwq
-      del.noheimu
-        h2 为什么这么慢？
-        p 我是学生党，初中生，哪来的钱呢？CDN，COS刷爆怎么办？况且我也没法备案啊(ノへ￣、)，自然就很慢了，可惜NPM全站加速失败（因为站太花了jsd不能用，所以目前为数不多的优化方式就是
-          a(href="https://tianli-blog.club/jsd") TianliCDN
-          span +
-          a(href="https://7bu.top") 7bu图床
-          span +
-          a(href="") CYFanSW
-          span ，so首次加载很慢————很慢————很————慢~~，大概也就30-120s吧
+      h2 为什么叫Tankenqi？
+      p 因为我喜欢LOL的塔姆这个英雄，wanwan的叫法是Tankenqi，所以就叫Tankenqi了
+      //- del.noheimu
+      //-   h2 为什么这么慢？
+      //-   p 我是学生党，初中生，哪来的钱呢？CDN，COS刷爆怎么办？况且我也没法备案啊(ノへ￣、)，自然就很慢了，可惜NPM全站加速失败（因为站太花了jsd不能用，所以目前为数不多的优化方式就是
+      //-     a(href="https://tianli-blog.club/jsd") TianliCDN
+      //-     span +
+      //-     a(href="https://7bu.top") 7bu图床
+      //-     span +
+      //-     a(href="") CYFanSW
+      //-     span ，so首次加载很慢————很慢————很————慢~~，大概也就30-120s吧
       h2 网站怎么加速的？
-      p 上了pjax和~~炒鸡NB的~~存储桶加速，虽然没有备案但速度还不错
+      p 上了pjax和存储桶加速，虽然没有备案但速度还不错
       p 啊对，请那些刷流量的耗子尾汁
-      h2 Favicon?
-      p 当然是
-        del 欧内撒麻
-        span 炮姐啦！
-      h2 还有什么？
-      p 我是一个
-        del(class="noheimu") 蒟蒻
-        span OIer，自然文章写着写着就成题解风了
-        del （雾，大雾，重庆雾
-        p 因为是学生，所以评论、友链基本上是周末回复（除了网课），敬请谅解qwq。
-      p 本站采用主题为自己独立后的Hexo-theme-Acryple，已经开源在Github，基于Hexo-theme-Butterfly 4.2.2，不过并没有专门做配置文件，文章甚至key都没删（原本是用作博客GithubActions部署的）
-      p 哦对了，如果速度不行的话可以试试切换线路（眼睛别花了），卡顿可以在右下角侧边栏打开设置调整一些设置，也可以看起来好看点（）
-      del(class="noheimu") 我不是原批啊啊啊qwq 
+      //- h2 Favicon?
+      //- p 当然是
+      //-   del 欧内撒麻
+      //-   span 炮姐啦！
+      //- h2 还有什么？
+      //- p 我是一个
+      //-   del(class="noheimu") 蒟蒻
+      //-   span OIer，自然文章写着写着就成题解风了
+      //-   del （雾，大雾，重庆雾
+      //-   p 因为是学生，所以评论、友链基本上是周末回复（除了网课），敬请谅解qwq。
+      //- p 本站采用主题为自己独立后的Hexo-theme-Acryple，已经开源在Github，基于Hexo-theme-Butterfly 4.2.2，不过并没有专门做配置文件，文章甚至key都没删（原本是用作博客GithubActions部署的）
+      //- p 哦对了，如果速度不行的话可以试试切换线路（眼睛别花了），卡顿可以在右下角侧边栏打开设置调整一些设置，也可以看起来好看点（）
+      //- del(class="noheimu") 我不是原批啊啊啊qwq 
   h1 文章统计
   script(src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js")
-  div(id="posts-chart" data-start="2021-01" style="border-radius: 8px; height: 300px; padding: 10px;")
+  div(id="posts-chart" data-start="2023-03" style="border-radius: 8px; height: 300px; padding: 10px;")
   div(id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;")
   div(id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;")
 
@@ -214,7 +221,7 @@
 script(src=url_for(theme.CDN.option.countup_js))
 script.
   (() => {
-    fetch('https://v6-widget.51.la/v6/JnlSnWLD7XChjrlx/quote.js').then(res => res.text()).then((data) => {
+    fetch('https://v6-widget.51.la/v6/3GIN8OKKEHazNDyk/quote.js').then(res => res.text()).then((data) => {
         let title = ['最近活跃', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
         let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g)
 

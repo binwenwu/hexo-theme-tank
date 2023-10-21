@@ -1,0 +1,59 @@
+{
+  "name": "code-points",
+  "version": "2.0.0-1",
+  "description": "Get the code points of each character in the string",
+  "main": "dist/code-points-cjs.js",
+  "files": [
+    "dist/code-points-cjs.js"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "istanbul cover test.js",
+    "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
+  },
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "repository": "shinnn/code-points.js",
+  "license": "MIT",
+  "keywords": [
+    "code",
+    "point",
+    "code-point",
+    "string",
+    "char",
+    "character",
+    "unicode",
+    "utf16",
+    "utf-16",
+    "codepointat",
+    "surrogate",
+    "plane"
+  ],
+  "dependencies": {
+    "code-point": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.2.2",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-jsonlint": "^1.0.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "istanbul": "^0.3.14",
+    "istanbul-coveralls": "^1.0.2",
+    "jshint-stylish": "^2.0.0",
+    "merge-stream": "^0.1.7",
+    "rimraf": "^2.3.4",
+    "tape": "^4.0.0",
+    "tiny-npm-license": "^1.0.0",
+    "to-camel-case": "^0.2.1"
+  },
+  "jscsConfig": {
+    "preset": "google",
+    "maximumLineLength": 98,
+    "requireBlocksOnNewline": true,
+    "validateLineBreaks": "LF"
+  }
+}
