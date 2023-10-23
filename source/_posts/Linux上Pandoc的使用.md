@@ -15,7 +15,7 @@ date: 2023-08-09 18:25:15
 ---
 
 {% note info simple %}如果你需要在不同的文件格式之间相互转换，多半听说或使用过文档转换的瑞士军刀——Pandoc。事实上，不仅人类知道 Pandoc，最近很火的人工智能 ChatGPT 也知道「将 Markdown 转换为 docx」，首选方案是使用 Pandoc。{% endnote %}
-{% link Pandoc 官网, https://www.pandoc.org/, https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/pandoc-cartoon.svgz %}
+{% link Pandoc 官网, https://www.pandoc.org/, https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/%E8%B7%AF%E5%BE%84.svg %}
 
 
 ## 1 安装
@@ -238,5 +238,5 @@ pandoc biblio.bib --citeproc --csl ieee.csl -s -o biblio.html
 ## 3 中文乱码问题
 
 中文乱码问题，大多与字体有关，解决方案详见文章
-{% link Linux 系统字体安装, https://tankenqi.cn/archives/2de821dc.html, https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20201027105140931.png %}
+{% link Linux 系统字体安装, https://tankenqi.cn/posts/2de821dc/, https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20201027105140931.png %}
 

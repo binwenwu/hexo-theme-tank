@@ -212,10 +212,10 @@ switchCommentBarrage = function () {
     let commentBarrage = document.querySelector('.comment-barrage');
     if (commentBarrage) {
         $(commentBarrage).fadeToggle()
-    }
+    	}
+	}
 }
 
-}
 // $(".comment-barrage").hover(function(){
 // 	clearInterval(timer);
 // },function () {

@@ -25,9 +25,9 @@ lyxTalk.init("IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
   function doSpeaks() {
   document.title = '说说 | Tankenqiの小窝'; 
 bbtalk.init({
-  appId: "",
-  appKey: "",
-  serverURLs: '',
+  appId: "4RerqbGfsYW0B6i3fFVRWPvv-MdYXbMMI",
+  appKey: "CF1XA7YjaRWQpYI3fWsINeBg",
+  serverURL: "https://4rerqbgf.api.lncldglobal.com",
   pageSize:1919810
 })
 }

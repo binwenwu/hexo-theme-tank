@@ -1,8 +1,16 @@
 
 AV.init({
-    appId: "",
-    appKey: "",
-    serverURL: ""
+    appId: '4RerqbGfsYW0B6i3fFVRWPvv-MdYXbMMI', // Your LeanCloud appId
+    appKey: 'CF1XA7YjaRWQpYI3fWsINeBg', // Your LeanCloud appKey
+    serverURL: "https://4rerqbgf.api.lncldglobal.com"
+
+    // appId: "4RerqbGfsYW0B6i3fFVRWPvv-MdYXbMMI",
+    // appKey: "CF1XA7YjaRWQpYI3fWsINeBg",
+    // serverURL: "https://4rerqbgf.api.lncldglobal.com"
+
+    // appId: "IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
+    // appKey: "vG8s9ukVO5bgozEHzR923dew",
+    // serverURL: "https://ivw3t1nj.lc-cn-n1-shared.com"
 });
 function lunbo(){
     var speaks=[];
@@ -24,7 +32,7 @@ Date.prototype.Format = function (fmt) {
     }
 query.find().then((talks) => {
     dat=new Date()
-    for(i=talks.length-1;i>=talks.length-31;i--){
+    for (i = talks.length - 1; i >= talks.length - 31 && i>=0; i--){
         var usedTime = Date.parse(dat) - Date.parse(talks[i]["createdAt"]);
         var days = Math.floor(usedTime / (24 * 3600 * 1000));
         var leave1 = usedTime % (24 * 3600 * 1000);  
@@ -47,8 +55,8 @@ query.find().then((talks) => {
     }
     document.querySelector(".shuoshuo").innerHTML=""
     for(i=0;i<speaks.length;i++){
-        var ch=document.createElement("div");
-        ch.className="swiper-slide bbtalks";
+        var ch = document.createElement("div");
+        ch.className = "swiper-slide bbtalks";
         ch.innerHTML=speaks[i];
         document.querySelector(".shuoshuo").appendChild(ch)
     }

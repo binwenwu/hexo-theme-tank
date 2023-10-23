@@ -11,12 +11,12 @@ menu:
     标签: /tags/ || fas fa-tags
   本站 || fa fa-sitemap:
     分站: /othersite/ || fa fa-tasks
-    日志: /update/ || fa fa-bell 
+    # 日志: /update/ || fa fa-bell 
     留言板: /messageboard/ || fa fa-blackboard
     订阅: /subscribe/ || fas fa-solid fa-cloud
     声明: /license/ || fas fa-balance-scale
   我的 || fa-fw fas fa-address-card:
-    电影: /movies/ || fa fa-photo-video
+    # 电影: /movies/ || fa fa-photo-video
     追番: /bangumis/ || fa-fw fas fa fa-film
     说说: /speaks/ || fa fa-comments
     友链: /links/ || fas fa-link
@@ -29,14 +29,9 @@ menu:
     每日早报: /zaobao/ || fa fa-newspaper
     木鱼: /muyu/ || fa fa-user-ninja
   线路 || fas fa-link:
-    Vercel: https://yisous.xyz
-    Vercel2: https://vercel.yisous.xyz
-    Netlify: https://netlify.yisous.xyz
-    Cloudflare: https://cf.yisous.xyz
-    Cloudflare2: https://cloudflare.yisous.xyz
-    Github: https://github.yisous.xyz
-    Railway: https://railway.yisous.xyz
-    Railway2: https://rw.yisous.xyz
+    主线: https://www.tankenqi.cn
+    备线1(待): https://www.tankenqi.cn/404
+
 
 
 # Code Blocks (代码块配置)
@@ -224,14 +219,14 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: 微信
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: /img/wechat.png
+      link:
+      text: 微信
+    - img: /img/alipay.png
+      link:
+      text: alipay
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -435,9 +430,10 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 萌ICP备20230346
-  custom_text: 这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒
+    since: 2023 #萌ICP备20230346
+  custom_text: <p><a style="margin-inline:5px" target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a><a style="margin-inline:5px" target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a><a style="margin-inline:5px" target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a><a style="margin-inline:5px" target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vercel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a><a style="margin-inline:5px" target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a><a style="margin-inline:5px" target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Github托管"></a><a style="margin-inline:5px" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p> #这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒
   copyright: true # Copyright of theme and framework
+  ICP: # Chinese ICP License
 
 # Analysis
 # --------------------------------------
@@ -461,6 +457,13 @@ cloudflare_analytics:
 # Microsoft Clarity
 # https://clarity.microsoft.com/
 microsoft_clarity:
+  
+
+# 51.la Analytics
+# https://v6.51.la/
+woyaola_analytics: 3GJ2IlxCoEmX5HpV
+woyaola_perf: 3GJ2MQkNNqLhhBDl
+
 
 # Advertisement
 # --------------------------------------
@@ -719,9 +722,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -887,6 +890,7 @@ inject:
   head:
   - <link rel="stylesheet" href="/css/ariasakablog.css"> # 主題樣式
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css"> 
+  - <link rel="stylesheet" href="/css/article_shine.css"> # 文章卡片擦亮动画效果
   - <link rel="stylesheet" href="/css/iconfont.css"> # 字体
   - "<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
   - <style id="barragesColor"></style> # 弹幕颜色
@@ -898,10 +902,10 @@ inject:
   - <link rel="stylesheet" href="/css/commentBarrage.css"> # 弹幕样式
   - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC"> # 字体
   - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" /> 
-  - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script> 
-  - '<script>LA.init({id: "3GIN8OKKEHazNDyk",ck: "3GIN8OKKEHazNDyk"})</script>' # 51.la 统计
+  - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script> # 51.la 统计
+  - '<script>LA.init({id: "3GJ2IlxCoEmX5HpV",ck: "3GJ2IlxCoEmX5HpV"})</script>' # 51.la 统计
   - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script> # 51.la 统计
-  - <script>new LingQue.Monitor().init({id:"3GIPbRwbFX8zoffD"});</script> # 灵雀监视器
+  - <script>new LingQue.Monitor().init({id:"3GJ2MQkNNqLhhBDl",sendSuspicious:true});</script> # 灵雀监视器
   - <script src="/swReg.js"></script> 
   - <span id="fps"></span> # FPS
   - <style id="grays"></style> # 灰色模式
@@ -1107,10 +1111,10 @@ fixed_card_widget:
       icon: fas fa-tags
       title: 标签
     - type: class
-      name: card-calendar
+      name: card-archives
       index: 0
       icon: fas fa-calendar
-      title: 文章日历
+      title: 归档
     - type: class
       name: card-webinfo
       index: 0
