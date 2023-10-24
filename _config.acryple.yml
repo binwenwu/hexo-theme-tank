@@ -920,6 +920,7 @@ inject:
   - <script src="https://cdn1.tianli0.top/npm/prefetch-page"></script> # 预加载
   - "<script>addEventListener('DOMContentLoaded', function () {prefetch({ threshold: 25, delay: 3000, limit: 10 ,customs: ['search.xml']})});requestIdleCallback(function () {prefetch({ threshold: 25, delay: 3000, limit: 10,customs: ['search.xml']})})</script>"
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.css"> # Ai摘要 - 样式
+  - <link rel="stylesheet" href="/css/cat.css"> # 猫猫下拉条
   bottom:
   - <script type="text/javascript" src="/js/fixbugpjax.js"></script> # 修复pjax的bug
   - <script src="/js/sakura.js"></script> # 落樱背景
@@ -966,6 +967,7 @@ inject:
   # - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
   - <script src="/js/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
   # - <script src="/js/player.js"></script>  # music页面
+  - <script src="/js/cat.js"></script>  # 猫猫下拉条
 
 
 # Don't modify the following settings unless you know how they work
