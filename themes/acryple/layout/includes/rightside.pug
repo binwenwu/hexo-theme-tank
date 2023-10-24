@@ -33,7 +33,7 @@ mixin rightsideItem(array)
               i.iconfont.icon-danmu
 
   a#opensettings(href="javascript:toggleWinbox();" title="博客设置")
-    i.fa.fa-wrench
+    i.fa.fa-solid.fa-gear.fa-spin.fa-spin-reverse
 #rightside
   - const { enable, hide, show } = theme.rightside_item_order
   - const hideArray = enable ? hide && hide.split(',') : ['readmode','translate','darkmode','hideAside']

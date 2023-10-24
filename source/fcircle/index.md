@@ -18,10 +18,12 @@ date: 2023-01-29 15:23:17
 <!-- 将apiurl改成你后端生成的api地址 -->
 <script type="text/javascript">
   var fdataUser = {
-    apiurl: ''
+    apiurl: 'https://hexo-circle-of-friends-eight-dun.vercel.app/'
   }
 </script>
 <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
-<script type="text/javascript" src="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/fcircle-beta.js"></script>
+<!-- 公共鱼塘：https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js --> 
+<!-- 我的: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/fcircle-beta.js -->
 <script type="text/javascript" src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
 <script src = "/js/randomFriend.js"></script>

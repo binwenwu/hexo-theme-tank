@@ -1,0 +1,39 @@
+- class_name: 我的朋友
+  flink_style: flexcard  #该参数可选值 flexcard 或者 butterfly 分别对应两种样式
+  link_list:
+    - name: forDece
+      link: https://www.fordece.cn/
+      avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/avatar.jpg
+      descr: 一枚优秀的学弟
+      siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20230906200929.png
+
+    - name: Zly
+      link: http://www.zly7.top/
+      avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/deep_annimation_head.png
+      descr: 记录，让你的人生不后悔
+      siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20230906201155.png
+
+
+- class_name: 推荐博客
+  flink_style: flexcard  #该参数可选值 flexcard 或者 butterfly 分别对应两种样式
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/anzhiy.cn.jpg
+
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/zhheo.png
+      descr: 分享设计与科技生活
+      siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/6311fc3959f82.webp
+
+    - name: 二兔
+      link: https://blog.juanertu.com/
+      avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/avatar.png
+      descr: 你真是一个美好的人类
+      siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20230906201535.png
+
+
+

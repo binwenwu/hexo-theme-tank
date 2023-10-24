@@ -3368,10 +3368,10 @@ li.categoryBar-list-item:nth-child(5)>span::after {
   content: '后端开发' !important;
 }
 li.categoryBar-list-item:nth-child(6)>span::after {
-  content: '微软社' !important;
+  content: '日常办公' !important;
 }
 li.categoryBar-list-item:nth-child(7)>span::after {
-  content: '日常办公' !important;
+  content: '微软社' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;

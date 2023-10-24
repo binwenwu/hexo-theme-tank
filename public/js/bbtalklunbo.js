@@ -78,9 +78,13 @@ query.find().then((talks) => {
 });
     
 }
+
+
 document.addEventListener('pjax:complete', (e) => {
-lunbo();
+    lunbo();
+    checkURLAndRun();
 })
 document.addEventListener('DOMContentLoaded', (e) => {
     lunbo();
-    })
+    checkURLAndRun();
+})

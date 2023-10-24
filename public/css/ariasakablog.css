@@ -3962,7 +3962,7 @@ transform: translateY(5px);}
     transition: 2s ease-in-out;
   }
   .author-content-item.game-mc {
-    background: url(https://bu.dusays.com/2022/09/01/63103a565d6b3.webp) no-repeat top;
+    background: url(https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/lol.jpeg) no-repeat top;
     background-size: cover;
     min-height: 300px;
     overflow: hidden;

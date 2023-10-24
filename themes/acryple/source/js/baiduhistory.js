@@ -36,7 +36,8 @@ if(document.getElementById('history-container')){
         return ["https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history@latest/baiduhistory/json/" + getMonth + ".json",getMonthDate]
     }
     var history_data = history_get_data()
-    fetch(history_data[0]).then(data=>data.json()).then(data=>{
+    fetch(history_data[0]).then(data => data.json()).then(data => {
+        // checkURLAndRun();
         console.log(data[history_data[1]])
         html_item =''
         for (var item of data[history_data[1]]){

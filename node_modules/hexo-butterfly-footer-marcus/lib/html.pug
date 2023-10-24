@@ -1,0 +1,87 @@
+footer#footer(style='background: transparent')
+  if iconsenable 
+    #footer_icons
+      div
+        each i in icon_left
+          if i.class == "in"
+            if pjaxenable
+              a.icon_link(href=`${i.link}`, title=`${i.desrc}`,data-pjax-state)
+                i(class=`${i.icon}`)
+            else 
+              a.icon_link(href=`${i.link}`, title=`${i.desrc}`)
+                i(class=`${i.icon}`)
+          else if i.class == "out"
+            a.icon_link(target='_blank', rel='noopener external nofollow', href=`${i.link}`, title=`${i.desrc}`)
+              i(class=`${i.icon}`)
+          else 
+            a.icon_link(href=`${i.link}`, title=`${i.desrc}`)
+              i(class=`${i.icon}`)
+      if logoenable
+        img.footer_logo(src=`${logo_url}`, onclick='btf.scrollToDest(0,500)', title='返回顶部')
+      div
+        each i in icon_right 
+          if i.class == "in"
+            if pjaxenable
+              a.icon_link(href=`${i.link}`, title=`${i.desrc}`,data-pjax-state)
+                i(class=`${i.icon}`)
+            else 
+              a.icon_link(href=`${i.link}`, title=`${i.desrc}`)
+                i(class=`${i.icon}`)
+          else if i.class == "out"
+            a.icon_link(target='_blank', rel='noopener external nofollow', href=`${i.link}`, title=`${i.desrc}`)
+              i(class=`${i.icon}`)
+          else 
+            a.icon_link(href=`${i.link}`, title=`${i.desrc}`)
+              i(class=`${i.icon}`)
+  if groupenable
+    #footer_content
+      each item in footer_group_link
+        .footer-group
+          h3.footer-title=item.group_title
+          .footer-links
+            each i in item.footer_links
+              if i.class == "in"
+                if pjaxenable
+                  a.footer-item(href=`${i.link}`, data-pjax-state)=i.text
+                else 
+                  a.footer-item(href=`${i.link}`)=i.text
+              else if i.class == "out"
+                a.footer-item(target='_blank', href=`${i.link}`)=i.text
+              else 
+                a.footer-item(href=`${i.link}`)=i.text
+      if flinksenable
+        .footer-group#friend-links-in-footer
+          h3.footer-title
+            | 友链
+            button(title='换一批', href='javascript:;', onclick='marcus.randomLink()')
+              i.fa-solid.fa-rotate-right
+          .footer-links
+            a.footer-item(target='_blank', href='https://blog.marcus233.top/') Marcus 
+            a.footer-item(target='_blank', href='https://blog.leonus.cn/') Leonus 
+            a.footer-item(target='_blank', href='https://blog.zhheo.com/') Zhheo 
+            a.footer-item(target='_blank', href='https://chuckle.top/') Chuckle
+            a.footer-item(target='_blank', href='https://akilar.top/') Akilar
+            a.footer-item(href='/link/', data-pjax-state) 查看更多
+  #footer-bottom
+    .footer-bottom-content
+      .footer-bottom-left
+        if copyrightenable
+          - var now = new Date()
+          - var nowYear = now.getFullYear()
+          if time && time != nowYear
+            span.copyright!= `&copy;${time} - ${nowYear} By `
+              a(target='_blank', rel='noopener', href=`${link}`, title=`点击访问"${author}"的主页`, style='margin-left:5px')=author
+          else
+            span.copyright!= `&copy;${nowYear} By `
+              a(target='_blank', rel='noopener', href=`${link}`, title=`点击访问"${author}"的主页`, style='margin-left:5px')=author
+        div
+          if bottom_left
+            each i in bottom_left
+              a.footer-bottom-link(target='_blank', href=`${i.link}`, rel='noopener external nofollow', title=`${i.desrc}`)=i.text
+      .footer-bottom-right
+        if runtimeenable
+          #runtime(title='已运行时长') 本站已运行：0 天 0 时 0 分 0 秒
+        div
+          if bottom_right
+            each i in bottom_right
+              a.footer-bottom-link(target='_blank', href=`${i.link}`, rel='noopener external nofollow', title=`${i.desrc}`)=i.text

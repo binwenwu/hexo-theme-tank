@@ -1,5 +1,5 @@
 var fdata = {
-    apiurl: "",
+    apiurl: "https://hexo-circle-of-friends-eight-dun.vercel.app/",
     defaultFish: 500,
     hungryFish: 500,
 }

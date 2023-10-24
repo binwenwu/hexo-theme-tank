@@ -28,9 +28,10 @@ menu:
     小空调: /kongtiao/ || fa fa-wind
     每日早报: /zaobao/ || fa fa-newspaper
     木鱼: /muyu/ || fa fa-user-ninja
+    小游戏: https://eatcat.yisous.xyz/ || fa fa-gamepad
   线路 || fas fa-link:
-    主线: https://www.tankenqi.cn
-    备线1(待): https://www.tankenqi.cn/404
+    主站(Github): https://www.tankenqi.cn || fa-brands fa-github
+    Vercel: binwenwu-github-io.vercel.app || fa-solid fa-square-caret-up
 
 
 
@@ -242,7 +243,7 @@ related_post:
   limit: 6 # Number of posts displayed
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
-# figcaption (圖片描述文字)
+# figcaption (图片描述文字)
 photofigcaption: false
 
 # post_pagination (分頁)
@@ -681,7 +682,7 @@ aside:
       enable: false
       icon: fab fa-github
       text: 看看博主的Github
-      link: https://github.com/lyxofficial
+      link: https://github.com/binwenwu
   card_announcement:
     enable: true
     content: 本网站的Twikoo评论系统使用Cravatar头像系统，请自行绑定邮箱配置
@@ -776,7 +777,7 @@ darkmode:
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
-# Don't repeat 不要重複
+# Don't repeat 不要重复
 rightside_item_order:
   enable: true
   hide: # readmode,translate,darkmode,hideAside
@@ -833,6 +834,8 @@ pjax:
     - /stars/
     # - categories/*
 
+
+# 左下角的音乐播放器
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
@@ -849,22 +852,24 @@ snackbar:
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
-# prefetch (預加載)
+# prefetch (网站链接预加载)
 instantpage: false
 
 # https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (中英文之間添加空格)
+# 中英文之间添加空格
+# Insert a space between Chinese character and English character
 pangu:
   enable: false
   field: post # site/post
 
-# Lazyload (圖片懶加載)
+# Lazyload (图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: false
   field: post # site/post
   placeholder:
   blur: true
+
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
@@ -889,6 +894,9 @@ css_prefix: true
 inject:
   head:
   - <link rel="stylesheet" href="/css/ariasakablog.css"> # 主題樣式
+  - <link rel="stylesheet" href="/css/comment.css"> # 评论区输入提示
+  - <link rel="stylesheet" href="/css/top_wave.css"> # 文章顶部波浪样式
+  # - <link rel="stylesheet" href="/css/music.css"> # music页面样式
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css"> 
   - <link rel="stylesheet" href="/css/article_shine.css"> # 文章卡片擦亮动画效果
   - <link rel="stylesheet" href="/css/iconfont.css"> # 字体
@@ -954,8 +962,10 @@ inject:
   - <script type="text/javascript" src="/js/latest.js"></script> # 最新文章
   - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>  # 侧边栏
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script> 
-  - <script async>let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'cb15e8574176e0a65dd7';</script> # Ai摘要 - 逻辑JS
-  - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
+  - <script >let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'cb15e8574176e0a65dd7';</script> # Ai摘要 - 注册
+  # - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
+  - <script src="/js/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
+  # - <script src="/js/player.js"></script>  # music页面
 
 
 # Don't modify the following settings unless you know how they work
@@ -1037,8 +1047,8 @@ categoryBar:
     - 云原生
     - 前端开发
     - 后端开发
-    - 微软社
     - 日常办公
+    - 微软社
   cover:
     - rgba(255,20,200,0.6)
     - rgba(255, 40, 40,0.6)
@@ -1173,3 +1183,150 @@ gitcalendar:
   # api: https://python-gitee-calendar-api.vercel.app/api
   # calendar_js: https://cdn1.tianli0.top/npm/reverse-stu-allversions@1.0.1/butterfly/diy/hexo_githubcalendar.js
   # plus_style: ""
+
+
+
+#页脚美化
+#hexo-butterfly-footer-marcus
+#see https://blog.marcus233.top/p/footer.html
+footer_beautify:
+  enable: false
+  priority: 1 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+      type: id
+      name: footer
+      index: 1
+  footer_icons:
+    enable: true
+    left:
+      - icon: fa-solid fa-compass
+        link: https://www.marcus233.top/
+        desrc: 个人主页
+        class: out
+      - icon: fa-brands fa-qq
+        link: https://res.abeim.cn/api/qq/?qq=3105950984
+        desrc: 联系QQ
+        class: out
+      - icon: fa-brands fa-weixin
+        link: /wechat/
+        desrc: 联系微信
+        class: in
+      - icon: fa-solid fa-envelope
+        link: mailto:marcus@marcus233.top
+        desrc: 发送邮件
+        class: out
+    right:
+      - icon: fa-brands fa-github
+        link: https://github.com/Marcusyyds
+        desrc: Github主页
+        class: out
+      - icon: fa-brands fa-bilibili
+        link: https://space.bilibili.com/1024450661
+        desrc: 哔哩哔哩主页
+        class: out
+      - icon: fa-solid fa-star
+        link: /stars/
+        desrc: 藏宝阁
+        class: in
+      - icon: fa-solid fa-comment
+        link: /message/
+        desrc: 留言
+        class: in
+  footer_logo:
+    enable: true
+    url: https://img01.anheyu.com/useruploads/8/2022/12/15/639adf5b8806a.png
+  footer_group:
+    enable: true
+    footer_group_link:
+      - group_title: 直达
+        footer_links: 
+          - text: 藏宝阁
+            link: /stars/
+            class: in
+          - text: 优秀句子
+            link: /sentence/
+            class: in
+          - text: 空间说说
+            link: /zone/
+            class: in
+          - text: 友链订阅
+            link: /fcircle/
+            class: in
+          - text: 切换背景
+            link: /bg/
+            class: in
+      - group_title: 关于
+        footer_links: 
+          - text: 关于我
+            link: /about/
+            class: in
+          - text: RSS订阅
+            link: /atom.xml
+            class: in
+          - text: 站点监控
+            link: https://uptime.marcus233.top/
+            class: out
+          - text: 更新记录
+            link: /timeline/
+            class: in
+          - text: 我的相册
+            link: /picture/
+            class: in
+      - group_title: 分类
+        footer_links: 
+          - text: 博客相关
+            link: /categories/博客相关
+            class: in
+          - text: 生活点滴
+            link: /categories/生活点滴
+            class: in 
+          - text: 资源分享
+            link: /categories/资源分享
+            class: in
+          - text: 学习笔记
+            link: /categories/学习笔记
+            class: in 
+          - text: 实用教程
+            link: /categories/实用教程
+            class: in 
+          - text: 查看全部
+            link: /categories/
+            class: in 
+  footer_friend_links:
+    enable: true
+    number: 5
+  footer_bottom:
+    copyright:
+      enable: true
+      author: Marcus
+      link: https://marcus233.top/
+      time: 2022
+    left:
+      - text: 雨云
+        desrc: 本站CDN支持
+        link: https://rainyun.com/
+      - text: 网盾星球
+        desrc: 本站CDN防护主要提供商:网盾星球
+        link: https://www.netdun.net/
+      - text: 萌ICP备20230221
+        desrc: 萌ICP备20230221
+        link: https://icp.gov.moe/?keyword=20230221
+      - text: 萌ICP备20236688
+        desrc: 萌ICP备20236688
+        link: https://icp.gov.moe/?keyword=20236688
+      - text: 萌ICP备20230002
+        desrc: 萌ICP备20230002
+        link: https://icp.gov.moe/?keyword=20230002
+    right:
+      - text: Hexo
+        desrc: 框架
+        link: https://hexo.io/zh-cn/
+      - text: Butterfly
+        desrc: 主题
+        link: https://butterfly.js.org/
+    runtime:
+      enable: true
+      time: 2022/08/09 00:00:00
+  footer_css: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.css
+  footer_js: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.js
