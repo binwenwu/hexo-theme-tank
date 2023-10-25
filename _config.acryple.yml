@@ -25,14 +25,15 @@ menu:
     收藏网址: /stars/ || fas fa-star
     关于我: /about/ || fa fa-info-circle
   工具 || fa-fw fas fa-tools:
+    WebGPT: /chatgpt/ || fa-brands fa-rocketchat
     小空调: /kongtiao/ || fa fa-wind
     每日早报: /zaobao/ || fa fa-newspaper
     木鱼: /muyu/ || fa fa-user-ninja
     番茄时钟: /tomato_clock/ || fa fa-clock
-    小游戏: https://eatcat.yisous.xyz/ || fa fa-gamepad
+    小游戏: /eat_cats || fa fa-gamepad
   线路 || fas fa-link:
     主站(Github): https://www.tankenqi.cn || fa-brands fa-github
-    Vercel: binwenwu-github-io.vercel.app || fa-solid fa-square-caret-up
+    Vercel: https://binwenwu-github-io.vercel.app || fa-solid fa-square-caret-up
 
 
 

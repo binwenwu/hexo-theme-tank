@@ -526,4 +526,31 @@
     
   </entry>
   
+  <entry>
+    <title>基于 MPI 的埃拉托斯特尼筛法的并行化设计、实现与结果分析</title>
+    <link href="https://www.tankenqi.cn/posts/55978286/"/>
+    <id>https://www.tankenqi.cn/posts/55978286/</id>
+    <published>2023-03-12T09:59:05.000Z</published>
+    <updated>2023-10-25T15:03:14.037Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://www.tankenqi.cn/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="并行计算" scheme="https://www.tankenqi.cn/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/"/>
+    
+    <category term="算法" scheme="https://www.tankenqi.cn/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
 </feed>

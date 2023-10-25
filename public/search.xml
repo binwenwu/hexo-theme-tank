@@ -512,6 +512,33 @@
     </entry>
     
     
+    
+    <entry>
+      <title>基于 MPI 的埃拉托斯特尼筛法的并行化设计、实现与结果分析</title>
+      <link href="/posts/55978286/"/>
+      <url>/posts/55978286/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-算法介绍"><a class="markdownIt-Anchor" href="#1-算法介绍"></a> 1 算法介绍</h2><p>​埃拉托斯特尼是一位古希腊数学家，他在寻找整数N以内的素数时，采用了一种与众不同的方法：先将2～N的各个数写在纸上：</p><p>​在2的上面画一个圆圈，然后划去2的其他倍数；第一个既未画圈又没有被划去的数是3，将它画圈，再划去3的其他倍数；现在既未画圈又没有被划去的第一个数是5，将它画圈，并划去5的其他倍数……依此类推，一直到所有小于或等于Ｎ的各数都画了圈或划去为止。这时，画了圈的以及未划去的那些数正好就是小于Ｎ的素数。</p><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224209018.png" alt="image-20231025224209018" /></p><ul><li>其伪代码如下：</li></ul><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Input: an integer n &gt; 1</span><br><span class="line"></span><br><span class="line">Let A be an array of Boolean values, indexed by integers 2 to n,</span><br><span class="line">initially all set to true.</span><br><span class="line"></span><br><span class="line"> for i = 2, 3, 4, ..., not exceeding √n:</span><br><span class="line">  if A[i] is true:</span><br><span class="line">    for j = i2, i2+i, i2+2i, i2+3i, ..., not exceeding n :</span><br><span class="line">      A[j] := false</span><br><span class="line"></span><br><span class="line">Output: all i such that A[i] is true.</span><br></pre></td></tr></table></figure><h2 id="2-实验环境"><a class="markdownIt-Anchor" href="#2-实验环境"></a> 2 实验环境</h2><ul><li>硬件环境</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20231025225837.png" alt="image-20231025224344521" /></p><ul><li>开发环境<ul><li>Visual Studio 2019，MSMPI v10.0</li></ul></li></ul><h2 id="3-mpi环境配置windows"><a class="markdownIt-Anchor" href="#3-mpi环境配置windows"></a> 3 MPI环境配置（Windows）</h2><p>windows 下运行mpi首推微软的msmp，因为比较简单，下载地址为：<a href="https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi%EF%BC%8C">https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi，</a><br />将两个安装包msmpisdk.msi和msmpisetup.exe分别下载然后安装完成后即可，下面是在VS2019中引入MSMPI的步骤：</p><ul><li>在VS中新建C++控制台应用程序，将项目编译改为X64</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224621719.png" alt="image-20231025224621719" /></p><ul><li>去安装的SDK目录，找到include与lib文件夹右键项目 – 属性 – vc++ 目录中包含目录添加 include 文件夹路径，库目录中添加 lib 文件夹路径。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224632397.png" alt="image-20231025224632397" /></p><ul><li>C/C++ -&gt;预处理器 -&gt; 预处理器定义 -&gt; 添加MPICH_SKIP_MPICXX</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224644983.png" alt="image-20231025224644983" /></p><ul><li>C/C++ -&gt; 代码生成  -&gt; 运行库 -&gt;选择：多线程调试(/MTD)</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224658506.png" alt="image-20231025224658506" /></p><ul><li>属性 – 链接器 – 输入 – 附加依赖项中添加msmpi.lib;</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20231025224712946.png" alt="image-20231025224712946" /></p><h2 id="4-linux下配置mpich"><a class="markdownIt-Anchor" href="#4-linux下配置mpich"></a> 4 Linux下配置MPICH</h2><ul><li>安装</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mpic  </span><br></pre></td></tr></table></figure><ul><li>CmakeLists.txt 下配置</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cmake_minimum_required(VERSION 3.13)    </span><br><span class="line">project(MPI)        </span><br><span class="line"><span class="built_in">set</span>(CMAKE_CXX_STANDARD 17)              </span><br><span class="line">find_package(MPI REQUIRED)    </span><br><span class="line">include_directories(<span class="variable">$&#123;MPI_INCLUDE_PATH&#125;</span>)    </span><br><span class="line"><span class="built_in">set</span>(CMAKE_CXX_COMPILER mpicxx)    </span><br><span class="line"><span class="built_in">set</span>(CMAKE_C_COMPILER mpicc)      </span><br><span class="line">add_executable(MPI main.cpp)</span><br></pre></td></tr></table></figure><h2 id="5-源码及更多分析文档"><a class="markdownIt-Anchor" href="#5-源码及更多分析文档"></a> 5 源码及更多分析文档</h2><div class="tag link"><a class="link-card" title="Github源码" href="https://github.com/binwenwu/Eratosthenes"><div class="left"><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/u%3D1662322932%2C969135674%26fm%3D253%26fmt%3Dauto%26app%3D120%26f%3DJPEG"/></div><div class="right"><p class="text">Github源码</p><p class="url">https://github.com/binwenwu/Eratosthenes</p></div></a></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 并行计算 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>

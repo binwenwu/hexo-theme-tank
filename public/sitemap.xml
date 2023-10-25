@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.tankenqi.cn/posts/55978286/</loc>
+    
+    <lastmod>2023-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/eat_cats/index.html</loc>
+    
+    <lastmod>2023-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/chatgpt/index.html</loc>
+    
+    <lastmod>2023-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/tomato_clock/index.html</loc>
     
     <lastmod>2023-10-25</lastmod>
@@ -501,20 +528,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Office/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/tags/Windows/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/VMware/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -530,6 +543,20 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/CentOS/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/Office/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/Windows/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -558,6 +585,20 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -616,6 +657,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

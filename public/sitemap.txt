@@ -1,3 +1,6 @@
+https://www.tankenqi.cn/posts/55978286/
+https://www.tankenqi.cn/eat_cats/index.html
+https://www.tankenqi.cn/chatgpt/index.html
 https://www.tankenqi.cn/tomato_clock/index.html
 https://www.tankenqi.cn/music/index.html
 https://www.tankenqi.cn/kongtiao/index.html
@@ -57,15 +60,17 @@ https://www.tankenqi.cn/tags/Pandoc/
 https://www.tankenqi.cn/tags/Clash/
 https://www.tankenqi.cn/tags/VPN/
 https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/
-https://www.tankenqi.cn/tags/Office/
-https://www.tankenqi.cn/tags/Windows/
 https://www.tankenqi.cn/tags/VMware/
 https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://www.tankenqi.cn/tags/CentOS/
+https://www.tankenqi.cn/tags/Office/
+https://www.tankenqi.cn/tags/Windows/
 https://www.tankenqi.cn/tags/IP/
 https://www.tankenqi.cn/tags/Vue/
 https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/
 https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/
+https://www.tankenqi.cn/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/
+https://www.tankenqi.cn/tags/%E7%AE%97%E6%B3%95/
 https://www.tankenqi.cn/tags/%E6%89%93%E5%8C%85/
 https://www.tankenqi.cn/tags/%E5%BE%AE%E8%BD%AF%E7%A4%BE/
 https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/
@@ -74,5 +79,6 @@ https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/
 https://www.tankenqi.cn/categories/Linux/
 https://www.tankenqi.cn/categories/%E6%97%A5%E5%B8%B8%E5%8A%9E%E5%85%AC/
 https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/
+https://www.tankenqi.cn/categories/%E7%AE%97%E6%B3%95/
 https://www.tankenqi.cn/categories/%E5%BE%AE%E8%BD%AF%E7%A4%BE/
 https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/

@@ -40,7 +40,7 @@ function insertAIDiv(selector) {
   const aiTagDiv = document.createElement('div');
   aiTagDiv.className = 'tianliGPT-tag';
   aiTagDiv.id = 'tianliGPT-tag';
-  aiTagDiv.textContent = 'TankenqiGPT';
+  aiTagDiv.textContent = 'BingAI';
   aiTitleDiv.appendChild(aiTagDiv);
 
   const aiExplanationDiv = document.createElement('div');
