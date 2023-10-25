@@ -17,17 +17,18 @@ menu:
     声明: /license/ || fas fa-balance-scale
   我的 || fa-fw fas fa-address-card:
     # 电影: /movies/ || fa fa-photo-video
+    音乐: /music/ || fa fa-music
     追番: /bangumis/ || fa-fw fas fa fa-film
     说说: /speaks/ || fa fa-comments
     友链: /links/ || fas fa-link
     朋友圈: /fcircle/ || fab fa-galactic-republic
-    音乐: /musics/ || fa fa-music
     收藏网址: /stars/ || fas fa-star
     关于我: /about/ || fa fa-info-circle
   工具 || fa-fw fas fa-tools:
     小空调: /kongtiao/ || fa fa-wind
     每日早报: /zaobao/ || fa fa-newspaper
     木鱼: /muyu/ || fa fa-user-ninja
+    番茄时钟: /tomato_clock/ || fa fa-clock
     小游戏: https://eatcat.yisous.xyz/ || fa fa-gamepad
   线路 || fas fa-link:
     主站(Github): https://www.tankenqi.cn || fa-brands fa-github
