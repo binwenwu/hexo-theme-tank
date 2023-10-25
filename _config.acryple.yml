@@ -21,7 +21,7 @@ menu:
     说说: /speaks/ || fa fa-comments
     友链: /links/ || fas fa-link
     朋友圈: /fcircle/ || fab fa-galactic-republic
-    # 音乐: /musics/ || fa fa-music
+    音乐: /musics/ || fa fa-music
     收藏网址: /stars/ || fas fa-star
     关于我: /about/ || fa fa-info-circle
   工具 || fa-fw fas fa-tools:
@@ -896,7 +896,6 @@ inject:
   - <link rel="stylesheet" href="/css/ariasakablog.css"> # 主題樣式
   - <link rel="stylesheet" href="/css/comment.css"> # 评论区输入提示
   - <link rel="stylesheet" href="/css/top_wave.css"> # 文章顶部波浪样式
-  # - <link rel="stylesheet" href="/css/music.css"> # music页面样式
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css"> 
   - <link rel="stylesheet" href="/css/article_shine.css"> # 文章卡片擦亮动画效果
   - <link rel="stylesheet" href="/css/iconfont.css"> # 字体
@@ -966,7 +965,6 @@ inject:
   - <script >let tianliGPT_postSelector = '\#post \#article-container';let tianliGPT_key = 'cb15e8574176e0a65dd7';</script> # Ai摘要 - 注册
   # - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
   - <script src="/js/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
-  # - <script src="/js/player.js"></script>  # music页面
   - <script src="/js/cat.js"></script>  # 猫猫下拉条
 
 
