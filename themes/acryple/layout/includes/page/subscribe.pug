@@ -1,0 +1,28 @@
+.rss-plan-list
+    a.rss-plan-item.rss-plan-wechat(href="/404/" title="公众号" target="_blank")
+        .rss-plan-description 推送精选文章<br>推送全文
+        .rss-plan-info-group
+            .rss-plan-title 公众号订阅(待开发)
+            .rss-plan-info 推荐的订阅方式
+            img.rss-plan-icon.no-lightbox(src="https://yife68.gitee.io/icat-pic/blog/11.webp")
+    a.rss-plan-item.rss-plan-mail(onclick="icat.submitInfo()" title="follow")
+        .rss-plan-description 推送全部文章<br>更新推送简介
+        .rss-plan-info-group
+            .rss-plan-title 邮件订阅
+            .rss-plan-info 推荐的订阅方式
+            img.rss-plan-icon.no-lightbox(src="https://yife68.gitee.io/icat-pic/blog/12.webp")
+    a.rss-plan-item.rss-plan-rss(href="/atom.xml" title="rss" target="_blank")
+        .rss-plan-description 推送全部文章<br>推送简介
+        .rss-plan-info-group
+            .rss-plan-title RSS
+            .rss-plan-info 备用订阅方式
+            img.rss-plan-icon.no-lightbox(src="https://yife68.gitee.io/icat-pic/blog/13.webp")
+
+hr
+
+.submit-box
+    include follow.pug
+
+!= page.content
+
+

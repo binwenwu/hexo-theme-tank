@@ -67,7 +67,7 @@ social:
   #iconfont icon-gitee: https://gitee.com/lyxofficial || Gitee
   # iconfont icon-RSS: https://www.cnblogs.com/LYXOfficial || 博客园
   # iconfont icon-zhihu: https://www.zhihu.com/people/alone-23-53 || 知乎
-  iconfont icon-bilibili: https://space.bilibili.com/369280472 || bilibili
+  iconfont icon-bilibili: https://space.bilibili.com/353113412 || bilibili
   fa fa-rss: /atom.xml || 订阅RSS源
 
 # search (搜索)
@@ -222,7 +222,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: /img/wechat.png
       link:
@@ -896,6 +896,7 @@ css_prefix: true
 inject:
   head:
   - <link rel="stylesheet" href="/css/ariasakablog.css"> # 主題樣式
+  - <link rel="stylesheet" href="/css/color.css"> # 颜色样式表
   - <link rel="stylesheet" href="/css/comment.css"> # 评论区输入提示
   - <link rel="stylesheet" href="/css/top_wave.css"> # 文章顶部波浪样式
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css"> 
@@ -922,6 +923,7 @@ inject:
   - "<script>addEventListener('DOMContentLoaded', function () {prefetch({ threshold: 25, delay: 3000, limit: 10 ,customs: ['search.xml']})});requestIdleCallback(function () {prefetch({ threshold: 25, delay: 3000, limit: 10,customs: ['search.xml']})})</script>"
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.css"> # Ai摘要 - 样式
   - <link rel="stylesheet" href="/css/cat.css"> # 猫猫下拉条
+  - <link rel="stylesheet" href="/css/subscribe.css"> # 订阅页样式
   bottom:
   - <script type="text/javascript" src="/js/fixbugpjax.js"></script> # 修复pjax的bug
   - <script src="/js/sakura.js"></script> # 落樱背景
@@ -968,7 +970,7 @@ inject:
   # - <script src="https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.9/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
   - <script src="/js/tianli_gpt.js"></script>  # Ai摘要 - 逻辑JS
   - <script src="/js/cat.js"></script>  # 猫猫下拉条
-
+  - <script src="/js/icat.js"></script> # 订阅页逻辑
 
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改

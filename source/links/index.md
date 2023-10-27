@@ -140,7 +140,7 @@ type: "links"
 - name: Tankenqiの小窝
   link: https://www.tankenqi.cn
   avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/639a9ebbbc1ad.webp
-  descr: 人有悲欢离合 月有阴晴圆缺
+  descr: 大快朵颐
   siteshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/blog.png
 ```
 <!-- endtab -->
@@ -149,7 +149,7 @@ type: "links"
 ```yaml
 - {
   title: 'Tankenqiの小窝',
-  intro: '人有悲欢离合 月有阴晴圆缺',
+  intro: '大快朵颐',
   link: 'https://www.tankenqi.cn',
   image: 'https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/639a9ebbbc1ad.webp'
 }
@@ -163,7 +163,7 @@ type: "links"
   url: https://www.tankenqi.cn
   screenshot: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/blog.png
   keywords: 个人博客
-  description: 人有悲欢离合 月有阴晴圆缺
+  description: 大快朵颐
 ```
 <!-- endtab -->
 

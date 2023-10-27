@@ -1,0 +1,10 @@
+form#follow(action="https://api.follow.it/subscribe?pub=v3FnyZzIYSKVaQVvMI8Ki4XoIQrvEC0- " method="post" target="_blank")
+    .follow-it-form-subscribe(style="position: relative;")
+        .heading
+            h5(style="font-weight: bold; text-align: center;") 订阅本站文章：
+        .input-field
+            input(type="email" name="email" placeholder="填入您的邮箱地址" spellcheck="false")
+        .submit-button
+            button(type="submit" onclick="ga('send','event', 'Form','Submit','Affiliate');" style="font-weight: bold; font-size: 14px; text-align: center;") 确认订阅
+    if is_page()
+        hr

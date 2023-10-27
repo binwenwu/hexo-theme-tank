@@ -7,6 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo bangumi -u && hexo generate && hexo deploy",
     "dev": "hexo clean && hexo bangumi -u && hexo generate && hexo server",
+    "dev2": "hexo clean && hexo generate && hexo server",
     "server": "hexo server",
     "sync": "yuque-hexo sync",
     "clean:yuque": "yuque-hexo clean"

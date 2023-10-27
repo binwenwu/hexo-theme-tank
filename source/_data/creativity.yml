@@ -29,8 +29,17 @@
       icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/cpp.png
     - name: Windows
       color: "#01b8f2"
-      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/qt.png
-    - name: Qt
-      color: "#41cd52"
-      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/qt.png
+      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/windows.png
+    - name: Scala
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/Scala.png
+    - name: Spark
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/Spark.png
+    - name: Geotrellis
+      color: "#4082c3"
+      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/geotrellis.png
+    - name: Kubernetes
+      color: "#01b8f2"
+      icon: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/k8s.png
     

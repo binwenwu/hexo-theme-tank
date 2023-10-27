@@ -1,0 +1,191 @@
+#post .tag_share + #follow {
+    margin-top: 40px;
+}
+.rss-plan-list {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+    position: relative;
+    justify-content: space-between;
+}
+.rss-plan-item:visited {
+    color: var(--icat-white);
+}
+.rss-plan-item.rss-plan-wechat {
+    background: #27c125;
+}
+.rss-plan-item.rss-plan-mail {
+    background: var(--icat-blue);
+}
+.rss-plan-item.rss-plan-rss {
+    background: var(--icat-orange);
+}
+.rss-plan-item {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 240px;
+    height: 240px;
+    margin: 6px 0;
+    overflow: hidden;
+    text-decoration: none;
+    width: calc(100% / 3 - 8px);
+    filter: brightness(1);
+    transition: .3s;
+    border: var(--style-border);
+    box-shadow: var(--icat-shadow-border);
+}
+.rss-plan-item:hover {
+    filter: brightness(1.1)
+}
+@media screen and (max-width: 1024px) {
+    .rss-plan-item {
+        width:calc(100% / 2 - 4px)
+    }
+    .rss-plan-item:first-child {
+        width: 100%
+    }
+}
+@media screen and (max-width: 768px) {
+    .rss-plan-item {
+        width:100%
+    }
+}
+/* 卡片大小 */
+
+.rss-plan-description {
+    font-size: 16px;
+    color: var(--icat-white);
+    margin: 26px 0 0 30px;
+    line-height: 20px;
+}
+.rss-plan-info-group {
+    position: relative;
+    margin: 0 0 26px 30px;
+    color: var(--icat-white);
+}
+.rss-plan-title {
+    font-size: 36px;
+    font-weight: 700;
+    width: fit-content;
+    line-height: 1;
+}
+.rss-plan-info {
+    width: fit-content;
+    opacity: .6;
+}
+img.rss-plan-icon {
+    position: absolute;
+    bottom: -50px;
+    right: -20px;
+    height: 140px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-transition: all 1.2s cubic-bezier(.39,.575,.565,1) !important;
+    -moz-transition: all 1.2s cubic-bezier(.39,.575,.565,1) !important;
+    -o-transition: all 1.2s cubic-bezier(.39,.575,.565,1) !important;
+    -ms-transition: all 1.2s cubic-bezier(.39,.575,.565,1) !important;
+    transition: all 1.2s cubic-bezier(.39,.575,.565,1) !important;
+    transform-origin: bottom right;
+    filter: blur(8px);
+    opacity: .6;
+}
+.rss-plan-item:hover img.rss-plan-icon {
+    bottom: -40px;
+    right: -10px;
+    filter: blur(0);
+    opacity: 1
+}
+.rss-plan-item:hover {
+    text-decoration: none !important;
+}
+/* 卡片订阅样式 */
+
+.follow-it-form-subscribe {
+    position: relative;
+    display: block;
+    padding: 26px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: var(--style-border);
+    box-shadow: var(--icat-shadow-border);
+    background-color: var(--icat-background);
+}
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+    .follow-it-form-subscribe::before {
+        content: '';
+        background: url(https://yife68.gitee.io/icat-pic/blog/follow.svg);
+        position: absolute;
+        top: 30px;
+        right: 26px;
+        width: 122px;
+        height: 25px;
+        filter: blur(2px);
+    }
+}
+.follow-it-form-subscribe .heading {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.follow-it-form-subscribe .heading h5 {
+    margin: 0 0 0.2rem 0;
+    color: var(--icat-fontcolor);
+    font-size: 18px;
+}
+.follow-it-form-subscribe .input-field {
+    margin-top: 20px;
+    width: 100%;
+}
+.follow-it-form-subscribe .input-field input {
+    width: 100%;
+    height: 48px;
+    border-radius: 6px;
+    border: 2px solid var(--icat-card-border);
+    outline: none;
+}
+.follow-it-form-subscribe .input-field input::placeholder,
+.follow-it-form-subscribe .input-field input {
+    opacity: .6;
+    background: var(--icat-secondbg);
+    color: var(--icat-fontcolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.follow-it-form-subscribe .submit-button {
+    margin-top: 16px;
+    width: 100%;
+}
+.follow-it-form-subscribe .submit-button button {
+    width: 100%;
+    height: 42px;
+    border: 0;
+    border-radius: 6px;
+    line-height: 0;
+    color: var(--icat-white);
+    background: var(--icat-black);
+    box-shadow: var(--icat-shadow-border);
+    transition: .3s;
+}
+.follow-it-form-subscribe .submit-button button:hover {
+    cursor: pointer;
+    background: var(--icat-blue);
+}
+.submit-box {
+    opacity: 0;
+    height: 0;
+    transition: all .3s ease 0s;
+}
+.submit-box.display {
+    opacity: 1;
+    height: auto;
+}
+/* follow样式 */
+
+/* 订阅样式 */
+
