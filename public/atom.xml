@@ -6,7 +6,7 @@
   <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
   
   <link href="https://www.tankenqi.cn/"/>
-  <updated>2023-10-22T03:36:29.061Z</updated>
+  <updated>2023-10-27T15:26:11.416Z</updated>
   <id>https://www.tankenqi.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PostgreSQL数据恢复方案</title>
+    <link href="https://www.tankenqi.cn/posts/dda2580a/"/>
+    <id>https://www.tankenqi.cn/posts/dda2580a/</id>
+    <published>2023-10-27T01:20:52.000Z</published>
+    <updated>2023-10-27T15:26:11.416Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>通过原始存储配置文件恢复数据库（简单粗暴）</title>
