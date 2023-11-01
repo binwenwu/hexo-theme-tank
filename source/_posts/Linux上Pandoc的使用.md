@@ -9,7 +9,7 @@ tags:
   - Linux
   - Pandoc
   - 软件安装
-swiper_index: 3
+swiper_index: 5
 abbrlink: 557acb69
 date: 2023-08-09 18:25:15
 ---

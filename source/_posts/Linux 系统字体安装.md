@@ -8,7 +8,7 @@ categories:
 tags:
   - Linux
   - 安装
-swiper_index: 3
+swiper_index: 1
 abbrlink: 2de821dc
 date: 2023-08-09 19:48:15
 ---

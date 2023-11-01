@@ -10,7 +10,7 @@ tags:
   - Containerd
 abbrlink: 9d39de82
 date: 2023-08-06 15:08:12
-swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index: 4 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ## 1 前述

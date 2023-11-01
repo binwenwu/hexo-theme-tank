@@ -10,7 +10,7 @@ categories:
 tags:
   - Linux
   - 存储
-swiper_index: 4 #置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index: 6 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ### 1. 安装 nfs-untils

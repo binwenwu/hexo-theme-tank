@@ -17,7 +17,7 @@ menu:
     声明: /license/ || fas fa-balance-scale
   我的 || fa-fw fas fa-address-card:
     # 电影: /movies/ || fa fa-photo-video
-    音乐: /music/ || fa fa-music
+    # 音乐: /music/ || fa fa-music
     追番: /bangumis/ || fa-fw fas fa fa-film
     说说: /speaks/ || fa fa-comments
     友链: /links/ || fas fa-link

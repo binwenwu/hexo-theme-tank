@@ -10,7 +10,7 @@ categories:
 tags:
   - K8S
   - Docker
-swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 本文参考：https://zhuanlan.zhihu.com/p/558014199?utm_id=0
