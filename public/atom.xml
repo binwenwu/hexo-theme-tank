@@ -6,7 +6,7 @@
   <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
   
   <link href="https://www.tankenqi.cn/"/>
-  <updated>2023-10-27T15:50:31.311Z</updated>
+  <updated>2023-12-16T14:28:43.458Z</updated>
   <id>https://www.tankenqi.cn/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>yum无法拉取到镜像资源</title>
+    <link href="https://www.tankenqi.cn/posts/e51b1ecb/"/>
+    <id>https://www.tankenqi.cn/posts/e51b1ecb/</id>
+    <published>2023-11-09T13:59:05.000Z</published>
+    <updated>2023-12-16T14:28:43.458Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    
+    <category term="yum" scheme="https://www.tankenqi.cn/tags/yum/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx搭建静态资源服务器</title>
+    <link href="https://www.tankenqi.cn/posts/85b8b565/"/>
+    <id>https://www.tankenqi.cn/posts/85b8b565/</id>
+    <published>2023-11-01T01:20:52.000Z</published>
+    <updated>2023-11-01T10:26:08.185Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="存储" scheme="https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/"/>
+    
+    <category term="nginx" scheme="https://www.tankenqi.cn/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>PostgreSQL数据恢复方案</title>
@@ -278,7 +332,7 @@
     <link href="https://www.tankenqi.cn/posts/9d39de82/"/>
     <id>https://www.tankenqi.cn/posts/9d39de82/</id>
     <published>2023-08-06T07:08:12.000Z</published>
-    <updated>2023-10-28T02:40:05.277Z</updated>
+    <updated>2023-11-27T12:14:39.629Z</updated>
     
     
       
@@ -363,7 +417,7 @@
     <link href="https://www.tankenqi.cn/posts/438a2103/"/>
     <id>https://www.tankenqi.cn/posts/438a2103/</id>
     <published>2023-08-01T10:25:15.000Z</published>
-    <updated>2023-10-24T08:38:15.650Z</updated>
+    <updated>2023-12-13T14:13:52.399Z</updated>
     
     
       
@@ -394,7 +448,7 @@
     <link href="https://www.tankenqi.cn/posts/16380ff0/"/>
     <id>https://www.tankenqi.cn/posts/16380ff0/</id>
     <published>2023-07-12T09:59:05.000Z</published>
-    <updated>2023-10-25T15:18:30.438Z</updated>
+    <updated>2023-11-07T05:22:44.768Z</updated>
     
     
       
@@ -475,7 +529,7 @@
     <link href="https://www.tankenqi.cn/posts/b035bcd6/"/>
     <id>https://www.tankenqi.cn/posts/b035bcd6/</id>
     <published>2023-05-11T01:20:52.000Z</published>
-    <updated>2023-10-21T04:51:49.730Z</updated>
+    <updated>2023-11-13T10:23:57.328Z</updated>
     
     
       
@@ -502,7 +556,7 @@
     <link href="https://www.tankenqi.cn/posts/d154fd87/"/>
     <id>https://www.tankenqi.cn/posts/d154fd87/</id>
     <published>2023-04-03T12:10:50.000Z</published>
-    <updated>2023-10-28T02:40:16.389Z</updated>
+    <updated>2023-11-09T12:47:15.874Z</updated>
     
     
       
