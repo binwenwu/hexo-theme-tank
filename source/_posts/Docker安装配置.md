@@ -42,13 +42,18 @@ docker version
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://82m9ar63.mirror.aliyuncs.com"],
-  "exec-opts": ["native.cgroupdriver=systemd"],
-  "log-driver": "json-file",
-  "log-opts": {
-    "max-size": "100m"
-  },
-  "storage-driver": "overlay2"
+ "registry-mirrors" : [
+   "https://mirror.ccs.tencentyun.com",
+   "http://registry.docker-cn.com",
+   "http://docker.mirrors.ustc.edu.cn",
+   "http://hub-mirror.c.163.com"
+ ],
+ "insecure-registries" : [
+   "registry.docker-cn.com",
+   "docker.mirrors.ustc.edu.cn"
+ ],
+ "debug" : true,
+ "experimental" : true
 }
 EOF
 sudo systemctl daemon-reload
