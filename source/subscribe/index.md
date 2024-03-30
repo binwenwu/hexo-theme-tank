@@ -27,5 +27,5 @@ comments: false
 
 你可以使用第三方RSS客户端接收到博客的文章摘要通知
 
-https://tankenqi.cn/atom.xml
+https://www.tankenqi.cn/atom.xml
 

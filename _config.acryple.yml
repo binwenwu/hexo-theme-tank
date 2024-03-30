@@ -209,7 +209,7 @@ anchor: false
 toc:
   post: true
   page: false
-  number: true
+  number: false  # 文章目录的自动编号
   expand: false
   style_simple: false #false # for post
 

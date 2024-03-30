@@ -114,6 +114,22 @@ type: "links"
     theme_color: "#949f98"
 
 
+
+- class_name: <h4>专业相关</h4>
+  class_desc: 一些和专业相关的博客
+  link_list:
+  - name: BimAnt
+    link: http://www.bimant.com/#
+    avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/buYgVO22990681624844309044.jpg
+    descr: 3D + AI
+    theme_color: "#5497bb"
+  - name: 岭南灯火
+    link: https://www.cnblogs.com/onsummer
+    avatar: https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/avatar.gif
+    descr: GISer
+    theme_color: "#949f98"
+
+
 - class_name: <h4>朋友</h4>
   class_desc: 那些人，那些事
   link_list:
