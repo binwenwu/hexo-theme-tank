@@ -22,7 +22,7 @@ TanK是一个高品质优雅的**Hexo**主题。它是用心从头开始制作�
 ## Preview
 [Tankenqi Blog](https://www.tankenqi.cn)
 
-### 使用 Gitpod
+## 使用 Gitpod
 
 在Gitpod（GitHub的免费在线开发环境）中打开项目并立即开始编码。
 
