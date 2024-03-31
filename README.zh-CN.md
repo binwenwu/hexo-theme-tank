@@ -34,7 +34,7 @@ TanK是一个高品质优雅的**Hexo**主题。它是用心从头开始制作�
 - 获取项目代码
 
 ```bash
-git clone git@github.com:binwenwu/blog_V2.0.git
+git clone https://github.com/binwenwu/blog_V2.0.git
 ```
 
 - 安装依赖

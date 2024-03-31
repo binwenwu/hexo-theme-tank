@@ -34,7 +34,7 @@ Open the project in Gitpod (free online dev environment for GitHub) and start co
 - Get the project code
 
 ```bash
-git clone git@github.com:binwenwu/blog_V2.0.git
+git clone https://github.com/binwenwu/blog_V2.0.git
 ```
 
 - Install dependencies
