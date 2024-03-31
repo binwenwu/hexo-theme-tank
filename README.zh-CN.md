@@ -19,10 +19,8 @@ TanK是一个高品质优雅的**Hexo**主题。它是用心从头开始制作�
 - 让大家把注意力放到内容上。这是本主题设计初衷
 
 
-<p align="center">
-    <img alt="tankenqi Logo" width="100%" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240330172515.png">
-    <img alt="tankenqi Logo" width="100%" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240330173112.png">
-</p>
+## Preview
+[Tankenqi Blog](https://www.tankenqi.cn)
 
 ### 使用 Gitpod
 

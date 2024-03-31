@@ -19,11 +19,8 @@ TanK is a high quality elegant Hexo theme. It is crafted from scratch, with love
 - Let everyone focus on the content. This is the original intention of this theme design
 
 
-<p align="center">
-    <img alt="tankenqi Logo" width="100%" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240330172515.png">
-    <div>
-    <img alt="tankenqi Logo" width="100%" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240330173112.png">
-</p>
+## Preview
+[Tankenqi Blog](https://www.tankenqi.cn)
 
 ### Use Gitpod
 
