@@ -251,9 +251,9 @@
     <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -278,13 +278,13 @@
     <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
+    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
     <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
     
     <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
   </entry>
   
@@ -374,31 +374,6 @@
     <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>武汉大学微软社招新2023笔试题</title>
-    <link href="https://www.tankenqi.cn/posts/33834cc9/"/>
-    <id>https://www.tankenqi.cn/posts/33834cc9/</id>
-    <published>2023-08-13T17:50:45.000Z</published>
-    <updated>2023-10-21T05:16:08.660Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="微软社" scheme="https://www.tankenqi.cn/categories/%E5%BE%AE%E8%BD%AF%E7%A4%BE/"/>
-    
-    
-    <category term="微软社" scheme="https://www.tankenqi.cn/tags/%E5%BE%AE%E8%BD%AF%E7%A4%BE/"/>
     
   </entry>
   
