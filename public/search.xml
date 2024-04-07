@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>3DCityDB 性能测试</title>
+      <link href="/posts/8066b642/"/>
+      <url>/posts/8066b642/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-硬件环境"><a class="markdownIt-Anchor" href="#1-硬件环境"></a> 1 硬件环境</h2><ul><li><strong>芯片</strong>：<em>Apple M2 Pro</em></li><li><strong>内存</strong>：<em>32GB</em></li><li><strong>核数</strong>：<em>12</em></li></ul><h2 id="2-测试流程"><a class="markdownIt-Anchor" href="#2-测试流程"></a> 2 测试流程</h2><h4 id="21创建3dcitydb数据库"><a class="markdownIt-Anchor" href="#21创建3dcitydb数据库"></a> 2.1<strong>创建<em>3DCityDB</em>数据库</strong></h4><blockquote><p>方便起见使用<em>Docker</em></p></blockquote><ul><li>拉取镜像</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull 3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><ul><li>运行容器</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 5432:5432 --name cdb \</span><br><span class="line">  -e POSTGRES_PASSWORD=123456 \</span><br><span class="line">  -e SRID=25832 \</span><br><span class="line">3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><h4 id="22-下载importerexporter"><a class="markdownIt-Anchor" href="#22-下载importerexporter"></a> 2.2 下载<em>Importer/Exporter</em></h4><blockquote><p>下载链接：<a href="https://github.com/3dcitydb/importer-exporter/releases">https://github.com/3dcitydb/importer-exporter/releases</a></p><p>使用Docker形式也行，具体参见<a href="https://3dcitydb-docs.readthedocs.io/en/latest/first-steps/docker.html">文档-1.5.2节</a>：</p></blockquote><ul><li><p>下载完毕后根据系统进行启动</p><ul><li><p><code>3DCityDB-Importer-Exporter.bat</code> (<em>Microsoft Windows family</em>)</p></li><li><p><code>3DCityDB-Importer-Exporter</code> (<em>UNIX/Linux/Mac OS family</em>)</p></li></ul></li></ul><blockquote><p>在大多数平台上，双击启动脚本或其快捷方式即可运行，但对于某些 <em>UNIX/Linux</em> 发行版，必须在 <em>shell</em> 环境中运行启动脚本</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> u+x 3DCityDB-Importer-Exporter</span><br><span class="line">./3DCityDB-Importer-Exporter</span><br></pre></td></tr></table></figure><h4 id="23-设置数据库连接"><a class="markdownIt-Anchor" href="#23-设置数据库连接"></a> 2.3 设置数据库连接</h4><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240407142027.png" alt="image-20240407141123781" /></p><h4 id="24-开始测试"><a class="markdownIt-Anchor" href="#24-开始测试"></a> 2.4 开始测试</h4><blockquote><p>测试数据集来自<a href="https://github.com/georocket/new-york-city-model-enhanced?tab=readme-ov-file">增强的纽约市 3D 建筑模型</a><br />导入模式：<em>Import All</em></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20240407141232505.png" alt="image-20240407141232505" /></p><h2 id="3-测试结果"><a class="markdownIt-Anchor" href="#3-测试结果"></a> 3 测试结果</h2><table><thead><tr><th style="text-align:center">Data</th><th style="text-align:center">Size</th><th style="text-align:center">Number of buildings</th><th style="text-align:center">Import time（Avg）</th></tr></thead><tbody><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA1_3D_Buildings_Merged.gml.zip"><em>DA1_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>412.3 MB</em></td><td style="text-align:center"><em>19,408</em></td><td style="text-align:center"><em>01min,44s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA5_3D_Buildings_Merged.gml.zip"><em>DA5_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>747.3 MB</em></td><td style="text-align:center"><em>34,082</em></td><td style="text-align:center"><em>03min,16s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA8_3D_Buildings_Merged.gml.zip"><em>DA8_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>1.20 GB</em></td><td style="text-align:center"><em>66,277</em></td><td style="text-align:center"><em>06min,21s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA19_3D_Buildings_Merged.gml.zip"><em>DA19_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>2.24 GB</em></td><td style="text-align:center"><em>105,569</em></td><td style="text-align:center"><em>12min,50s</em></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> GIS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GIS </tag>
+            
+            <tag> 3DCityDB </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CentOS安装GDAL</title>
       <link href="/posts/84542e25/"/>
       <url>/posts/84542e25/</url>
