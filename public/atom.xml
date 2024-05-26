@@ -6,7 +6,7 @@
   <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
   
   <link href="https://www.tankenqi.cn/"/>
-  <updated>2024-04-07T07:22:55.445Z</updated>
+  <updated>2024-04-15T01:06:23.337Z</updated>
   <id>https://www.tankenqi.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CentOS中为Docker配置代理</title>
+    <link href="https://www.tankenqi.cn/posts/8bacdc7a/"/>
+    <id>https://www.tankenqi.cn/posts/8bacdc7a/</id>
+    <published>2024-04-10T13:46:58.000Z</published>
+    <updated>2024-04-15T01:06:23.337Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    
+    
+    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>3DCityDB 性能测试</title>
     <link href="https://www.tankenqi.cn/posts/8066b642/"/>
     <id>https://www.tankenqi.cn/posts/8066b642/</id>
     <published>2024-04-07T07:56:08.000Z</published>
-    <updated>2024-04-07T07:22:55.445Z</updated>
+    <updated>2024-04-09T11:56:21.169Z</updated>
     
     
       
@@ -181,7 +208,7 @@
     <link href="https://www.tankenqi.cn/posts/6005debc/"/>
     <id>https://www.tankenqi.cn/posts/6005debc/</id>
     <published>2024-01-01T13:56:08.000Z</published>
-    <updated>2024-04-07T07:22:34.770Z</updated>
+    <updated>2024-04-15T01:06:33.332Z</updated>
     
     
       
@@ -307,9 +334,9 @@
     
     <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
-    
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
     <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -365,9 +392,9 @@
     <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
-    
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
     <category term="PostgreSQL" scheme="https://www.tankenqi.cn/tags/PostgreSQL/"/>
     
@@ -398,9 +425,9 @@
     <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
-    
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
@@ -537,11 +564,11 @@
     <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
     
     
+    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
+    
     <category term="VMware" scheme="https://www.tankenqi.cn/tags/VMware/"/>
     
     <category term="虚拟机" scheme="https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
     
   </entry>
   
@@ -680,9 +707,9 @@
     <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
-    
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
@@ -707,9 +734,9 @@
     <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
-    
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   

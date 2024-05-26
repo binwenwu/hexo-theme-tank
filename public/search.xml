@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>CentOS中为Docker配置代理</title>
+      <link href="/posts/8bacdc7a/"/>
+      <url>/posts/8bacdc7a/</url>
+      
+        <content type="html"><![CDATA[<h3 id="背景"><a class="markdownIt-Anchor" href="#背景"></a> 背景</h3><blockquote><p>因为一些安全原因，公司的机器网络环境不能直接访问外网，需要配置代理才能够访问，导致我使用拉取镜像的时候连接不到，报了如下的错误</p></blockquote><p><code>Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled while......</code></p><p>一般来说主机通过代理访问外网方式就是通过在命令行设置 <code>export</code> 来设置代理，如下所示:</p><p><code>export http_proxy=http://proxy_server:7890</code><br /><code>export https_proxy=https://proxy_server:7890</code></p><p>但是docker拉取镜像是通过 <code>docker daemon</code> 服务完成，<code>docker daemon</code> 服务是在另一个进程中，不会读取当前<code>shell</code> 命令行的代理，所以 <code>docker pull</code> 会失败，官网的说明如下:</p><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/d3ea11faffa34a2fa6cfd541051b2f8e-min.png" alt="" /></p><h3 id="代理配置"><a class="markdownIt-Anchor" href="#代理配置"></a> 代理配置</h3><ul><li>创建目录</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /etc/systemd/system/docker.service.d</span><br><span class="line"><span class="built_in">cd</span> /etc/systemd/system/docker.service.d</span><br></pre></td></tr></table></figure><ul><li>创建配置文件<code>http-proxy.conf</code>，内容如下：<ul><li>我这里的代理没有对外提供<code>https</code>，因此所以我在<code>https_proxy</code>协议还是写了<code>http</code>的</li></ul></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[Service]</span><br><span class="line">Environment=&quot;HTTP_PROXY=http://your.proxy.server:port/&quot;</span><br><span class="line">Environment=&quot;HTTPS_PROXY=http://your.proxy.server:port/&quot;</span><br><span class="line">Environment=&quot;NO_PROXY=localhost,127.0.0.1&quot;</span><br></pre></td></tr></table></figure><ul><li>重新加载<code>systemd</code>守护程序</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl daemon-reload</span><br></pre></td></tr></table></figure><ul><li>重启<code>Docker</code></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure><ul><li>验证是否已经加载</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl show docker --property Environment</span><br></pre></td></tr></table></figure><blockquote><p>Environment= …</p></blockquote><ul><li>配置完后使用<code>docker pull</code>，发现有反应了</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 云原生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+            <tag> CentOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>3DCityDB 性能测试</title>
       <link href="/posts/8066b642/"/>
       <url>/posts/8066b642/</url>
       
-        <content type="html"><![CDATA[<h2 id="1-硬件环境"><a class="markdownIt-Anchor" href="#1-硬件环境"></a> 1 硬件环境</h2><ul><li><strong>芯片</strong>：<em>Apple M2 Pro</em></li><li><strong>内存</strong>：<em>32GB</em></li><li><strong>核数</strong>：<em>12</em></li></ul><h2 id="2-测试流程"><a class="markdownIt-Anchor" href="#2-测试流程"></a> 2 测试流程</h2><h4 id="21创建3dcitydb数据库"><a class="markdownIt-Anchor" href="#21创建3dcitydb数据库"></a> 2.1<strong>创建<em>3DCityDB</em>数据库</strong></h4><blockquote><p>方便起见使用<em>Docker</em></p></blockquote><ul><li>拉取镜像</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull 3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><ul><li>运行容器</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 5432:5432 --name cdb \</span><br><span class="line">  -e POSTGRES_PASSWORD=123456 \</span><br><span class="line">  -e SRID=25832 \</span><br><span class="line">3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><h4 id="22-下载importerexporter"><a class="markdownIt-Anchor" href="#22-下载importerexporter"></a> 2.2 下载<em>Importer/Exporter</em></h4><blockquote><p>下载链接：<a href="https://github.com/3dcitydb/importer-exporter/releases">https://github.com/3dcitydb/importer-exporter/releases</a></p><p>使用Docker形式也行，具体参见<a href="https://3dcitydb-docs.readthedocs.io/en/latest/first-steps/docker.html">文档-1.5.2节</a>：</p></blockquote><ul><li><p>下载完毕后根据系统进行启动</p><ul><li><p><code>3DCityDB-Importer-Exporter.bat</code> (<em>Microsoft Windows family</em>)</p></li><li><p><code>3DCityDB-Importer-Exporter</code> (<em>UNIX/Linux/Mac OS family</em>)</p></li></ul></li></ul><blockquote><p>在大多数平台上，双击启动脚本或其快捷方式即可运行，但对于某些 <em>UNIX/Linux</em> 发行版，必须在 <em>shell</em> 环境中运行启动脚本</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> u+x 3DCityDB-Importer-Exporter</span><br><span class="line">./3DCityDB-Importer-Exporter</span><br></pre></td></tr></table></figure><h4 id="23-设置数据库连接"><a class="markdownIt-Anchor" href="#23-设置数据库连接"></a> 2.3 设置数据库连接</h4><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240407142027.png" alt="image-20240407141123781" /></p><h4 id="24-开始测试"><a class="markdownIt-Anchor" href="#24-开始测试"></a> 2.4 开始测试</h4><blockquote><p>测试数据集来自<a href="https://github.com/georocket/new-york-city-model-enhanced?tab=readme-ov-file">增强的纽约市 3D 建筑模型</a><br />导入模式：<em>Import All</em></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20240407141232505.png" alt="image-20240407141232505" /></p><h2 id="3-测试结果"><a class="markdownIt-Anchor" href="#3-测试结果"></a> 3 测试结果</h2><table><thead><tr><th style="text-align:center">Data</th><th style="text-align:center">Size</th><th style="text-align:center">Number of buildings</th><th style="text-align:center">Import time（Avg）</th></tr></thead><tbody><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA1_3D_Buildings_Merged.gml.zip"><em>DA1_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>412.3 MB</em></td><td style="text-align:center"><em>19,408</em></td><td style="text-align:center"><em>01min,44s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA5_3D_Buildings_Merged.gml.zip"><em>DA5_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>747.3 MB</em></td><td style="text-align:center"><em>34,082</em></td><td style="text-align:center"><em>03min,16s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA8_3D_Buildings_Merged.gml.zip"><em>DA8_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>1.20 GB</em></td><td style="text-align:center"><em>66,277</em></td><td style="text-align:center"><em>06min,21s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA19_3D_Buildings_Merged.gml.zip"><em>DA19_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>2.24 GB</em></td><td style="text-align:center"><em>105,569</em></td><td style="text-align:center"><em>12min,50s</em></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-硬件环境"><a class="markdownIt-Anchor" href="#1-硬件环境"></a> 1 硬件环境</h2><ul><li><strong>芯片</strong>：<em>Apple M2 Pro</em></li><li><strong>内存</strong>：<em>32GB</em></li><li><strong>核数</strong>：<em>12</em></li></ul><h2 id="2-测试流程"><a class="markdownIt-Anchor" href="#2-测试流程"></a> 2 测试流程</h2><h4 id="21创建3dcitydb数据库"><a class="markdownIt-Anchor" href="#21创建3dcitydb数据库"></a> 2.1<strong>创建<em>3DCityDB</em>数据库</strong></h4><blockquote><p>方便起见使用<em>Docker</em></p></blockquote><ul><li>拉取镜像</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull 3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><ul><li>运行容器</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 5432:5432 --name cdb \</span><br><span class="line">  -e POSTGRES_PASSWORD=123456 \</span><br><span class="line">  -e SRID=25832 \</span><br><span class="line">3dcitydb/3dcitydb-pg</span><br></pre></td></tr></table></figure><h4 id="22-下载importerexporter"><a class="markdownIt-Anchor" href="#22-下载importerexporter"></a> 2.2 下载<em>Importer/Exporter</em></h4><blockquote><p>下载链接：<a href="https://github.com/3dcitydb/importer-exporter/releases">https://github.com/3dcitydb/importer-exporter/releases</a></p><p>使用Docker形式也行，具体参见<a href="https://3dcitydb-docs.readthedocs.io/en/latest/first-steps/docker.html">文档-1.5.2节</a>：</p></blockquote><ul><li><p>下载完毕后根据系统进行启动</p><ul><li><p><code>3DCityDB-Importer-Exporter.bat</code> (<em>Microsoft Windows family</em>)</p></li><li><p><code>3DCityDB-Importer-Exporter</code> (<em>UNIX/Linux/Mac OS family</em>)</p></li></ul></li></ul><blockquote><p>在大多数平台上，双击启动脚本或其快捷方式即可运行，但对于某些 <em>UNIX/Linux</em> 发行版，必须在 <em>shell</em> 环境中运行启动脚本</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> u+x 3DCityDB-Importer-Exporter</span><br><span class="line">./3DCityDB-Importer-Exporter</span><br></pre></td></tr></table></figure><h4 id="23-设置数据库连接"><a class="markdownIt-Anchor" href="#23-设置数据库连接"></a> 2.3 设置数据库连接</h4><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/20240407142027.png" alt="image-20240407141123781" /></p><h4 id="24-开始测试"><a class="markdownIt-Anchor" href="#24-开始测试"></a> 2.4 开始测试</h4><h5 id="241-导入测试"><a class="markdownIt-Anchor" href="#241-导入测试"></a> 2.4.1 <strong>导入测试</strong></h5><blockquote><p>测试数据集来自<a href="https://github.com/georocket/new-york-city-model-enhanced?tab=readme-ov-file">增强的纽约市 3D 建筑模型</a><br />导入模式：<em>Import All</em></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20240407141232505.png" alt="image-20240407141232505" /></p><ul><li>测试结果</li></ul><table><thead><tr><th style="text-align:center">Data</th><th style="text-align:center">Size</th><th style="text-align:center">Number of buildings</th><th style="text-align:center">Import time（Avg）</th></tr></thead><tbody><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA1_3D_Buildings_Merged.gml.zip"><em>DA1_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>412.3 MB</em></td><td style="text-align:center"><em>19,408</em></td><td style="text-align:center"><em>01min,44s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA5_3D_Buildings_Merged.gml.zip"><em>DA5_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>747.3 MB</em></td><td style="text-align:center"><em>34,082</em></td><td style="text-align:center"><em>03min,16s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA8_3D_Buildings_Merged.gml.zip"><em>DA8_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>1.20 GB</em></td><td style="text-align:center"><em>66,277</em></td><td style="text-align:center"><em>06min,21s</em></td></tr><tr><td style="text-align:center"><a href="https://github.com/georocket/new-york-city-model-enhanced/releases/download/20v5/DA19_3D_Buildings_Merged.gml.zip"><em>DA19_3D_Buildings_Merged.gml.zip</em></a></td><td style="text-align:center"><em>2.24 GB</em></td><td style="text-align:center"><em>105,569</em></td><td style="text-align:center"><em>12min,50s</em></td></tr></tbody></table><h5 id="242-查询测试"><a class="markdownIt-Anchor" href="#242-查询测试"></a> 2.4.2 查询测试</h5><blockquote><p>本实验测试从不同体积量的数据库中检索出不同复杂程度的模型所需时长</p></blockquote><ul><li><strong>测试所用具有不同体积量的数据库</strong></li></ul><table><thead><tr><th style="text-align:center">ID</th><th style="text-align:center">Size</th><th style="text-align:center">Number of buildings</th><th style="text-align:center">子节点数量</th></tr></thead><tbody><tr><td style="text-align:center"><strong>DB1</strong></td><td style="text-align:center"><em>500 MB</em></td><td style="text-align:center"><em>37,149</em></td><td style="text-align:center"><em>21,24255</em></td></tr><tr><td style="text-align:center"><strong>DB2</strong></td><td style="text-align:center"><em>4587 MB</em></td><td style="text-align:center"><em>277,5159</em></td><td style="text-align:center">246,98085</td></tr></tbody></table><ul><li><strong>不同复杂程度三维场景在不同体积数据库下的检索效率</strong></li></ul><table><thead><tr><th style="text-align:center">场景 ID</th><th style="text-align:center">子节点数量</th><th style="text-align:center">Number of buildings</th><th style="text-align:center">DB1 Time</th><th style="text-align:center">DB2 Time</th></tr></thead><tbody><tr><td style="text-align:center"><strong>S1</strong></td><td style="text-align:center"><em>10098</em></td><td style="text-align:center"><em>918</em></td><td style="text-align:center"><em>0.391 s</em></td><td style="text-align:center"><em>1.44 s</em></td></tr><tr><td style="text-align:center"><strong>S2</strong></td><td style="text-align:center"><em>22869</em></td><td style="text-align:center"><em>2110</em></td><td style="text-align:center"><em>0.520 s</em></td><td style="text-align:center"><em>1.502 s</em></td></tr><tr><td style="text-align:center"><strong>S3</strong></td><td style="text-align:center"><em>33506</em></td><td style="text-align:center"><em>3046</em></td><td style="text-align:center"><em>0.664 s</em></td><td style="text-align:center"><em>1.732 s</em></td></tr><tr><td style="text-align:center"><strong>S4</strong></td><td style="text-align:center"><em>45859</em></td><td style="text-align:center"><em>4169</em></td><td style="text-align:center"><em>0.783 s</em></td><td style="text-align:center"><em>1.901 s</em></td></tr><tr><td style="text-align:center"><strong>S5</strong></td><td style="text-align:center"><em>82478</em></td><td style="text-align:center"><em>7498</em></td><td style="text-align:center"><em>1.254 s</em></td><td style="text-align:center"><em>2.316 s</em></td></tr></tbody></table>]]></content>
       
       
       <categories>
@@ -290,9 +317,9 @@
             
             <tag> 后端 </tag>
             
-            <tag> 容器 </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> 容器 </tag>
             
             <tag> 数据库 </tag>
             
@@ -348,9 +375,9 @@
       
         <tags>
             
-            <tag> 容器 </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> 容器 </tag>
             
             <tag> PostgreSQL </tag>
             
@@ -381,9 +408,9 @@
       
         <tags>
             
-            <tag> 容器 </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> 容器 </tag>
             
         </tags>
       
@@ -520,11 +547,11 @@
       
         <tags>
             
+            <tag> CentOS </tag>
+            
             <tag> VMware </tag>
             
             <tag> 虚拟机 </tag>
-            
-            <tag> CentOS </tag>
             
         </tags>
       
@@ -663,9 +690,9 @@
       
         <tags>
             
-            <tag> 容器 </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> 容器 </tag>
             
         </tags>
       
@@ -690,9 +717,9 @@
       
         <tags>
             
-            <tag> 容器 </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> 容器 </tag>
             
         </tags>
       
