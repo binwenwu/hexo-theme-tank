@@ -134,7 +134,7 @@ search:
 deploy:
   - type: git
     repo: git@github.com:binwenwu/binwenwu.github.io.git
-    branch: master
+    branch: main
 
 
 live2d:
