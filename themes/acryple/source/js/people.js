@@ -45,7 +45,7 @@ function _createClass(e, r, t) {
     return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), e
 }
 var config = {
-        src: "https://f.zhheo.com/Guli/others/open-peeps-sheet.png",
+        src: "https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/open-peeps-sheet.png",
         rows: 15,
         cols: 7
     },
