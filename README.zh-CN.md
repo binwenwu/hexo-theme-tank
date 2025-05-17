@@ -20,7 +20,7 @@ TanK是一个高品质优雅的**Hexo**主题。它是用心从头开始制作�
 
 
 ## Preview
-[Tankenqi Blog](https://www.tankenqi.cn)
+[Tankenqi Blog](https://binwenwu.github.io/)
 
 ## 使用 Gitpod
 
@@ -34,13 +34,13 @@ TanK是一个高品质优雅的**Hexo**主题。它是用心从头开始制作�
 - 获取项目代码
 
 ```bash
-git clone https://github.com/binwenwu/blog_V2.0.git
+git clone https://github.com/binwenwu/hexo-theme-tank.git
 ```
 
 - 安装依赖
 
 ```bash
-cd blog_V2.0
+cd hexo-theme-tank
 
 npm install
 ```
@@ -105,9 +105,6 @@ npm run deploy
 
 <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo." height="120">
 
-## Star 历史记录
-
-[![Star History Chart](https://api.star-history.com/svg?repos=binwenwu/blog_v2.0&type=Date)](https://star-history.com/#binwenwu/blog_v2.0&Date)
 
 ## 许可证
 
