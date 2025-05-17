@@ -52,7 +52,14 @@ npm run dev
 ```
 
 - Deploy
-
+> before deploy, you should modify the warehouse address in config.yml
+```bash
+deploy:
+  - type: git
+    repo: git@github.com:binwenwu/binwenwu.github.io.git
+    branch: main
+```
+> then
 ```bash
 npm run deploy
 ```

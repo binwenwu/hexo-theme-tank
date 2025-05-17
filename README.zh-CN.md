@@ -52,7 +52,14 @@ npm run dev
 ```
 
 - 部署
-
+> 在部署之前，您应该修改config.yml中的仓库地址
+```bash
+deploy:
+  - type: git
+    repo: git@github.com:binwenwu/binwenwu.github.io.git
+    branch: main
+```
+> 然后
 ```bash
 npm run deploy
 ```

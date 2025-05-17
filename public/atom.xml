@@ -3,11 +3,11 @@
   <title>Tankenqiの小窝</title>
   <icon>https://www.gravatar.com/avatar/e72f077a2f71b2be255a3ec60b054acb</icon>
   
-  <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
+  <link href="https://binwenwu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://www.tankenqi.cn/"/>
-  <updated>2024-05-26T13:01:01.540Z</updated>
-  <id>https://www.tankenqi.cn/</id>
+  <link href="https://binwenwu.github.io/"/>
+  <updated>2025-05-17T05:51:06.587Z</updated>
+  <id>https://binwenwu.github.io/</id>
   
   <author>
     <name>Tankenqi</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>CentOS中为Docker配置代理</title>
-    <link href="https://www.tankenqi.cn/posts/8bacdc7a/"/>
-    <id>https://www.tankenqi.cn/posts/8bacdc7a/</id>
+    <link href="https://binwenwu.github.io/posts/8bacdc7a/"/>
+    <id>https://binwenwu.github.io/posts/8bacdc7a/</id>
     <published>2024-04-10T13:46:58.000Z</published>
-    <updated>2024-05-26T13:01:01.540Z</updated>
+    <updated>2025-05-17T05:51:06.587Z</updated>
     
     
       
@@ -34,21 +34,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
+    <category term="CentOS" scheme="https://binwenwu.github.io/tags/CentOS/"/>
     
   </entry>
   
   <entry>
     <title>3DCityDB 性能测试</title>
-    <link href="https://www.tankenqi.cn/posts/8066b642/"/>
-    <id>https://www.tankenqi.cn/posts/8066b642/</id>
+    <link href="https://binwenwu.github.io/posts/8066b642/"/>
+    <id>https://binwenwu.github.io/posts/8066b642/</id>
     <published>2024-04-07T07:56:08.000Z</published>
-    <updated>2024-05-26T13:01:01.536Z</updated>
+    <updated>2025-05-17T05:51:06.586Z</updated>
     
     
       
@@ -61,21 +61,21 @@
     
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/categories/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/categories/GIS/"/>
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/tags/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/tags/GIS/"/>
     
-    <category term="3DCityDB" scheme="https://www.tankenqi.cn/tags/3DCityDB/"/>
+    <category term="3DCityDB" scheme="https://binwenwu.github.io/tags/3DCityDB/"/>
     
   </entry>
   
   <entry>
     <title>CentOS安装GDAL</title>
-    <link href="https://www.tankenqi.cn/posts/84542e25/"/>
-    <id>https://www.tankenqi.cn/posts/84542e25/</id>
+    <link href="https://binwenwu.github.io/posts/84542e25/"/>
+    <id>https://binwenwu.github.io/posts/84542e25/</id>
     <published>2024-02-09T07:26:08.000Z</published>
-    <updated>2024-05-26T13:01:01.540Z</updated>
+    <updated>2025-05-17T05:51:06.587Z</updated>
     
     
       
@@ -88,21 +88,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    <category term="后端" scheme="https://binwenwu.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="gdal" scheme="https://www.tankenqi.cn/tags/gdal/"/>
+    <category term="gdal" scheme="https://binwenwu.github.io/tags/gdal/"/>
     
   </entry>
   
   <entry>
     <title>Bigtable —— 简介</title>
-    <link href="https://www.tankenqi.cn/posts/4b68374a/"/>
-    <id>https://www.tankenqi.cn/posts/4b68374a/</id>
+    <link href="https://binwenwu.github.io/posts/4b68374a/"/>
+    <id>https://binwenwu.github.io/posts/4b68374a/</id>
     <published>2024-01-12T07:06:08.000Z</published>
-    <updated>2024-05-26T13:01:01.540Z</updated>
+    <updated>2025-05-17T05:51:06.587Z</updated>
     
     
       
@@ -115,21 +115,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    <category term="后端" scheme="https://binwenwu.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="Bigtable" scheme="https://www.tankenqi.cn/tags/Bigtable/"/>
+    <category term="Bigtable" scheme="https://binwenwu.github.io/tags/Bigtable/"/>
     
   </entry>
   
   <entry>
     <title>Apache Hbase —— 简介</title>
-    <link href="https://www.tankenqi.cn/posts/ec7eb22a/"/>
-    <id>https://www.tankenqi.cn/posts/ec7eb22a/</id>
+    <link href="https://binwenwu.github.io/posts/ec7eb22a/"/>
+    <id>https://binwenwu.github.io/posts/ec7eb22a/</id>
     <published>2024-01-11T08:23:08.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -142,21 +142,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    <category term="后端" scheme="https://binwenwu.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="Hbase" scheme="https://www.tankenqi.cn/tags/Hbase/"/>
+    <category term="Hbase" scheme="https://binwenwu.github.io/tags/Hbase/"/>
     
   </entry>
   
   <entry>
     <title>SSH建立原理及配置两台主机的远程连接实现免密登陆</title>
-    <link href="https://www.tankenqi.cn/posts/85912ba6/"/>
-    <id>https://www.tankenqi.cn/posts/85912ba6/</id>
+    <link href="https://binwenwu.github.io/posts/85912ba6/"/>
+    <id>https://binwenwu.github.io/posts/85912ba6/</id>
     <published>2024-01-10T08:23:08.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -169,21 +169,21 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="SSH" scheme="https://www.tankenqi.cn/tags/SSH/"/>
+    <category term="SSH" scheme="https://binwenwu.github.io/tags/SSH/"/>
     
   </entry>
   
   <entry>
     <title>Postgres展平JSON(b)</title>
-    <link href="https://www.tankenqi.cn/posts/2922fd2b/"/>
-    <id>https://www.tankenqi.cn/posts/2922fd2b/</id>
+    <link href="https://binwenwu.github.io/posts/2922fd2b/"/>
+    <id>https://binwenwu.github.io/posts/2922fd2b/</id>
     <published>2024-01-01T14:56:08.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -196,19 +196,19 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Postgres" scheme="https://www.tankenqi.cn/tags/Postgres/"/>
+    <category term="Postgres" scheme="https://binwenwu.github.io/tags/Postgres/"/>
     
   </entry>
   
   <entry>
     <title>3DTiles官方资源下载链接</title>
-    <link href="https://www.tankenqi.cn/posts/6005debc/"/>
-    <id>https://www.tankenqi.cn/posts/6005debc/</id>
+    <link href="https://binwenwu.github.io/posts/6005debc/"/>
+    <id>https://binwenwu.github.io/posts/6005debc/</id>
     <published>2024-01-01T13:56:08.000Z</published>
-    <updated>2024-05-26T13:01:01.536Z</updated>
+    <updated>2025-05-17T05:51:06.586Z</updated>
     
     
       
@@ -221,21 +221,21 @@
     
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/categories/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/categories/GIS/"/>
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/tags/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/tags/GIS/"/>
     
-    <category term="3DTiles" scheme="https://www.tankenqi.cn/tags/3DTiles/"/>
+    <category term="3DTiles" scheme="https://binwenwu.github.io/tags/3DTiles/"/>
     
   </entry>
   
   <entry>
     <title>yum无法拉取到镜像资源</title>
-    <link href="https://www.tankenqi.cn/posts/e51b1ecb/"/>
-    <id>https://www.tankenqi.cn/posts/e51b1ecb/</id>
+    <link href="https://binwenwu.github.io/posts/e51b1ecb/"/>
+    <id>https://binwenwu.github.io/posts/e51b1ecb/</id>
     <published>2023-11-09T13:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -248,21 +248,21 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="yum" scheme="https://www.tankenqi.cn/tags/yum/"/>
+    <category term="yum" scheme="https://binwenwu.github.io/tags/yum/"/>
     
   </entry>
   
   <entry>
     <title>Nginx搭建静态资源服务器</title>
-    <link href="https://www.tankenqi.cn/posts/85b8b565/"/>
-    <id>https://www.tankenqi.cn/posts/85b8b565/</id>
+    <link href="https://binwenwu.github.io/posts/85b8b565/"/>
+    <id>https://binwenwu.github.io/posts/85b8b565/</id>
     <published>2023-11-01T01:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -275,21 +275,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="存储" scheme="https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/"/>
+    <category term="存储" scheme="https://binwenwu.github.io/tags/%E5%AD%98%E5%82%A8/"/>
     
-    <category term="nginx" scheme="https://www.tankenqi.cn/tags/nginx/"/>
+    <category term="nginx" scheme="https://binwenwu.github.io/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>PostgreSQL数据恢复方案</title>
-    <link href="https://www.tankenqi.cn/posts/dda2580a/"/>
-    <id>https://www.tankenqi.cn/posts/dda2580a/</id>
+    <link href="https://binwenwu.github.io/posts/dda2580a/"/>
+    <id>https://binwenwu.github.io/posts/dda2580a/</id>
     <published>2023-10-27T01:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -302,21 +302,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    <category term="后端" scheme="https://binwenwu.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://binwenwu.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>通过原始存储配置文件恢复数据库（简单粗暴）</title>
-    <link href="https://www.tankenqi.cn/posts/add5de83/"/>
-    <id>https://www.tankenqi.cn/posts/add5de83/</id>
+    <link href="https://binwenwu.github.io/posts/add5de83/"/>
+    <id>https://binwenwu.github.io/posts/add5de83/</id>
     <published>2023-10-12T01:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.543Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -329,25 +329,25 @@
     
     
     
-    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://binwenwu.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    <category term="后端" scheme="https://binwenwu.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="容器" scheme="https://binwenwu.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
-    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://binwenwu.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>Microsoft Office下载及激活教程</title>
-    <link href="https://www.tankenqi.cn/posts/499a3852/"/>
-    <id>https://www.tankenqi.cn/posts/499a3852/</id>
+    <link href="https://binwenwu.github.io/posts/499a3852/"/>
+    <id>https://binwenwu.github.io/posts/499a3852/</id>
     <published>2023-10-11T12:10:50.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -360,23 +360,23 @@
     
     
     
-    <category term="日常办公" scheme="https://www.tankenqi.cn/categories/%E6%97%A5%E5%B8%B8%E5%8A%9E%E5%85%AC/"/>
+    <category term="日常办公" scheme="https://binwenwu.github.io/categories/%E6%97%A5%E5%B8%B8%E5%8A%9E%E5%85%AC/"/>
     
     
-    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <category term="软件安装" scheme="https://binwenwu.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
-    <category term="Office" scheme="https://www.tankenqi.cn/tags/Office/"/>
+    <category term="Office" scheme="https://binwenwu.github.io/tags/Office/"/>
     
-    <category term="Windows" scheme="https://www.tankenqi.cn/tags/Windows/"/>
+    <category term="Windows" scheme="https://binwenwu.github.io/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>Docker安装PostgreSQL并添加PostGIS拓展</title>
-    <link href="https://www.tankenqi.cn/posts/e232bc22/"/>
-    <id>https://www.tankenqi.cn/posts/e232bc22/</id>
+    <link href="https://binwenwu.github.io/posts/e232bc22/"/>
+    <id>https://binwenwu.github.io/posts/e232bc22/</id>
     <published>2023-10-09T12:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -389,27 +389,27 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="容器" scheme="https://binwenwu.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
-    <category term="PostgreSQL" scheme="https://www.tankenqi.cn/tags/PostgreSQL/"/>
+    <category term="PostgreSQL" scheme="https://binwenwu.github.io/tags/PostgreSQL/"/>
     
-    <category term="PostGIS" scheme="https://www.tankenqi.cn/tags/PostGIS/"/>
+    <category term="PostGIS" scheme="https://binwenwu.github.io/tags/PostGIS/"/>
     
-    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://binwenwu.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>Docker镜像打包迁移</title>
-    <link href="https://www.tankenqi.cn/posts/620cff7f/"/>
-    <id>https://www.tankenqi.cn/posts/620cff7f/</id>
+    <link href="https://binwenwu.github.io/posts/620cff7f/"/>
+    <id>https://binwenwu.github.io/posts/620cff7f/</id>
     <published>2023-10-09T01:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -422,21 +422,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="容器" scheme="https://binwenwu.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Vue子组件中调用父组件中的方法</title>
-    <link href="https://www.tankenqi.cn/posts/aec1e412/"/>
-    <id>https://www.tankenqi.cn/posts/aec1e412/</id>
+    <link href="https://binwenwu.github.io/posts/aec1e412/"/>
+    <id>https://binwenwu.github.io/posts/aec1e412/</id>
     <published>2023-08-12T09:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -449,23 +449,23 @@
     
     
     
-    <category term="前端开发" scheme="https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="前端开发" scheme="https://binwenwu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Vue" scheme="https://www.tankenqi.cn/tags/Vue/"/>
+    <category term="Vue" scheme="https://binwenwu.github.io/tags/Vue/"/>
     
-    <category term="前端" scheme="https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://binwenwu.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="组件" scheme="https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/"/>
+    <category term="组件" scheme="https://binwenwu.github.io/tags/%E7%BB%84%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>Linux 系统字体安装</title>
-    <link href="https://www.tankenqi.cn/posts/2de821dc/"/>
-    <id>https://www.tankenqi.cn/posts/2de821dc/</id>
+    <link href="https://binwenwu.github.io/posts/2de821dc/"/>
+    <id>https://binwenwu.github.io/posts/2de821dc/</id>
     <published>2023-08-09T11:48:15.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -478,21 +478,21 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="安装" scheme="https://www.tankenqi.cn/tags/%E5%AE%89%E8%A3%85/"/>
+    <category term="安装" scheme="https://binwenwu.github.io/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
   <entry>
     <title>Linux上Pandoc的使用</title>
-    <link href="https://www.tankenqi.cn/posts/557acb69/"/>
-    <id>https://www.tankenqi.cn/posts/557acb69/</id>
+    <link href="https://binwenwu.github.io/posts/557acb69/"/>
+    <id>https://binwenwu.github.io/posts/557acb69/</id>
     <published>2023-08-09T10:25:15.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -505,23 +505,23 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <category term="软件安装" scheme="https://binwenwu.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="Pandoc" scheme="https://www.tankenqi.cn/tags/Pandoc/"/>
+    <category term="Pandoc" scheme="https://binwenwu.github.io/tags/Pandoc/"/>
     
   </entry>
   
   <entry>
     <title>K8S集群环境搭建(Containerd作为容器)</title>
-    <link href="https://www.tankenqi.cn/posts/9d39de82/"/>
-    <id>https://www.tankenqi.cn/posts/9d39de82/</id>
+    <link href="https://binwenwu.github.io/posts/9d39de82/"/>
+    <id>https://binwenwu.github.io/posts/9d39de82/</id>
     <published>2023-08-06T07:08:12.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -534,21 +534,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="K8S" scheme="https://www.tankenqi.cn/tags/K8S/"/>
+    <category term="K8S" scheme="https://binwenwu.github.io/tags/K8S/"/>
     
-    <category term="Containerd" scheme="https://www.tankenqi.cn/tags/Containerd/"/>
+    <category term="Containerd" scheme="https://binwenwu.github.io/tags/Containerd/"/>
     
   </entry>
   
   <entry>
     <title>VMware安装CentOS 7</title>
-    <link href="https://www.tankenqi.cn/posts/7ddf46fc/"/>
-    <id>https://www.tankenqi.cn/posts/7ddf46fc/</id>
+    <link href="https://binwenwu.github.io/posts/7ddf46fc/"/>
+    <id>https://binwenwu.github.io/posts/7ddf46fc/</id>
     <published>2023-08-04T08:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -561,23 +561,23 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="CentOS" scheme="https://www.tankenqi.cn/tags/CentOS/"/>
+    <category term="CentOS" scheme="https://binwenwu.github.io/tags/CentOS/"/>
     
-    <category term="VMware" scheme="https://www.tankenqi.cn/tags/VMware/"/>
+    <category term="VMware" scheme="https://binwenwu.github.io/tags/VMware/"/>
     
-    <category term="虚拟机" scheme="https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://binwenwu.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>Centos安装Grass</title>
-    <link href="https://www.tankenqi.cn/posts/4e1214ce/"/>
-    <id>https://www.tankenqi.cn/posts/4e1214ce/</id>
+    <link href="https://binwenwu.github.io/posts/4e1214ce/"/>
+    <id>https://binwenwu.github.io/posts/4e1214ce/</id>
     <published>2023-08-03T14:04:51.000Z</published>
-    <updated>2024-05-26T13:01:01.540Z</updated>
+    <updated>2025-05-17T05:51:06.587Z</updated>
     
     
       
@@ -590,23 +590,23 @@
     
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/categories/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/categories/GIS/"/>
     
     
-    <category term="GIS" scheme="https://www.tankenqi.cn/tags/GIS/"/>
+    <category term="GIS" scheme="https://binwenwu.github.io/tags/GIS/"/>
     
-    <category term="遥感" scheme="https://www.tankenqi.cn/tags/%E9%81%A5%E6%84%9F/"/>
+    <category term="遥感" scheme="https://binwenwu.github.io/tags/%E9%81%A5%E6%84%9F/"/>
     
-    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <category term="软件安装" scheme="https://binwenwu.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
   <entry>
     <title>Linux安装Clash – 代理 – VPN</title>
-    <link href="https://www.tankenqi.cn/posts/438a2103/"/>
-    <id>https://www.tankenqi.cn/posts/438a2103/</id>
+    <link href="https://binwenwu.github.io/posts/438a2103/"/>
+    <id>https://binwenwu.github.io/posts/438a2103/</id>
     <published>2023-08-01T10:25:15.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -619,25 +619,25 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <category term="软件安装" scheme="https://binwenwu.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="Clash" scheme="https://www.tankenqi.cn/tags/Clash/"/>
+    <category term="Clash" scheme="https://binwenwu.github.io/tags/Clash/"/>
     
-    <category term="VPN" scheme="https://www.tankenqi.cn/tags/VPN/"/>
+    <category term="VPN" scheme="https://binwenwu.github.io/tags/VPN/"/>
     
   </entry>
   
   <entry>
     <title>本地启动前端打包的项目</title>
-    <link href="https://www.tankenqi.cn/posts/16380ff0/"/>
-    <id>https://www.tankenqi.cn/posts/16380ff0/</id>
+    <link href="https://binwenwu.github.io/posts/16380ff0/"/>
+    <id>https://binwenwu.github.io/posts/16380ff0/</id>
     <published>2023-07-12T09:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -650,21 +650,21 @@
     
     
     
-    <category term="前端开发" scheme="https://www.tankenqi.cn/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="前端开发" scheme="https://binwenwu.github.io/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="前端" scheme="https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://binwenwu.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="打包" scheme="https://www.tankenqi.cn/tags/%E6%89%93%E5%8C%85/"/>
+    <category term="打包" scheme="https://binwenwu.github.io/tags/%E6%89%93%E5%8C%85/"/>
     
   </entry>
   
   <entry>
     <title>K8S集群环境搭建(Docker作为容器)</title>
-    <link href="https://www.tankenqi.cn/posts/d862c611/"/>
-    <id>https://www.tankenqi.cn/posts/d862c611/</id>
+    <link href="https://binwenwu.github.io/posts/d862c611/"/>
+    <id>https://binwenwu.github.io/posts/d862c611/</id>
     <published>2023-05-18T06:08:12.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -677,21 +677,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="K8S" scheme="https://www.tankenqi.cn/tags/K8S/"/>
+    <category term="K8S" scheme="https://binwenwu.github.io/tags/K8S/"/>
     
   </entry>
   
   <entry>
     <title>Docker修改容器映射主机端口</title>
-    <link href="https://www.tankenqi.cn/posts/9c5d9ac5/"/>
-    <id>https://www.tankenqi.cn/posts/9c5d9ac5/</id>
+    <link href="https://binwenwu.github.io/posts/9c5d9ac5/"/>
+    <id>https://binwenwu.github.io/posts/9c5d9ac5/</id>
     <published>2023-05-12T07:26:51.000Z</published>
-    <updated>2024-05-26T13:01:01.540Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -704,21 +704,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="容器" scheme="https://binwenwu.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Docker安装配置</title>
-    <link href="https://www.tankenqi.cn/posts/b035bcd6/"/>
-    <id>https://www.tankenqi.cn/posts/b035bcd6/</id>
+    <link href="https://binwenwu.github.io/posts/b035bcd6/"/>
+    <id>https://binwenwu.github.io/posts/b035bcd6/</id>
     <published>2023-05-11T01:20:52.000Z</published>
-    <updated>2024-05-26T13:01:01.541Z</updated>
+    <updated>2025-05-17T05:51:06.588Z</updated>
     
     
       
@@ -731,21 +731,21 @@
     
     
     
-    <category term="云原生" scheme="https://www.tankenqi.cn/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
+    <category term="云原生" scheme="https://binwenwu.github.io/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/"/>
     
     
-    <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
+    <category term="Docker" scheme="https://binwenwu.github.io/tags/Docker/"/>
     
-    <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
+    <category term="容器" scheme="https://binwenwu.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Linux配置NFS共享存储服务器</title>
-    <link href="https://www.tankenqi.cn/posts/d154fd87/"/>
-    <id>https://www.tankenqi.cn/posts/d154fd87/</id>
+    <link href="https://binwenwu.github.io/posts/d154fd87/"/>
+    <id>https://binwenwu.github.io/posts/d154fd87/</id>
     <published>2023-04-03T12:10:50.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.589Z</updated>
     
     
       
@@ -758,21 +758,21 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/tags/Linux/"/>
     
-    <category term="存储" scheme="https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/"/>
+    <category term="存储" scheme="https://binwenwu.github.io/tags/%E5%AD%98%E5%82%A8/"/>
     
   </entry>
   
   <entry>
     <title>VMware虚拟机设置静态IP</title>
-    <link href="https://www.tankenqi.cn/posts/f5fad029/"/>
-    <id>https://www.tankenqi.cn/posts/f5fad029/</id>
+    <link href="https://binwenwu.github.io/posts/f5fad029/"/>
+    <id>https://binwenwu.github.io/posts/f5fad029/</id>
     <published>2023-03-14T08:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -785,23 +785,23 @@
     
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
+    <category term="Linux" scheme="https://binwenwu.github.io/categories/Linux/"/>
     
     
-    <category term="VMware" scheme="https://www.tankenqi.cn/tags/VMware/"/>
+    <category term="VMware" scheme="https://binwenwu.github.io/tags/VMware/"/>
     
-    <category term="虚拟机" scheme="https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://binwenwu.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-    <category term="IP" scheme="https://www.tankenqi.cn/tags/IP/"/>
+    <category term="IP" scheme="https://binwenwu.github.io/tags/IP/"/>
     
   </entry>
   
   <entry>
     <title>基于 MPI 的埃拉托斯特尼筛法的并行化设计、实现与结果分析</title>
-    <link href="https://www.tankenqi.cn/posts/55978286/"/>
-    <id>https://www.tankenqi.cn/posts/55978286/</id>
+    <link href="https://binwenwu.github.io/posts/55978286/"/>
+    <id>https://binwenwu.github.io/posts/55978286/</id>
     <published>2023-03-12T09:59:05.000Z</published>
-    <updated>2024-05-26T13:01:01.542Z</updated>
+    <updated>2025-05-17T05:51:06.590Z</updated>
     
     
       
@@ -814,12 +814,12 @@
     
     
     
-    <category term="算法" scheme="https://www.tankenqi.cn/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://binwenwu.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="并行计算" scheme="https://www.tankenqi.cn/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/"/>
+    <category term="并行计算" scheme="https://binwenwu.github.io/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/"/>
     
-    <category term="算法" scheme="https://www.tankenqi.cn/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://binwenwu.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
