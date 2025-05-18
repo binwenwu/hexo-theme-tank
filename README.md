@@ -1,7 +1,4 @@
-<div align="center"> <a href="http://www.tankenqi.cn"> <img alt="Tankenqi Logo" width="200" height="200" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/meta.png"> </a> <br> <br>
-
-[![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
-
+<div align="center"> <a href="http://www.tankenqi.cn"> <img alt="Tankenqi Logo" width="200" height="150" src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_02/img/image%20(1).png"> </a>
 <h1>Hexo-theme-TanK</h1>
 </div>
 
